@@ -1,0 +1,16 @@
+<svg width="257.5" height="62" xmlns="http://www.w3.org/2000/svg">
+
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="64" width="259.5" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <g id="Group_617">
+   <rect x="-932" y="-332" fill="#d7e603" height="20" width="257.5" id="Rectangle_119"/>
+   <rect x="-932" y="-332" fill="#d7e603" height="20" width="162.5" id="Rectangle_120"/>
+  </g>
+  <rect transform="matrix(1.0104932344460673,0,0,0.9981900181394395,-1286.9464994793734,-305.98145315997857) " stroke="null" x="1273.323921" y="306.536267" fill="#d7e603" height="20" width="257.5" id="svg_8"/>
+  <rect transform="matrix(0.9981900181394395,0,0,0.9981900181394395,-1271.2837801241724,-305.98145315997857) " stroke="null" x="1273.588971" y="348.64868" fill="#d7e603" height="20" width="162.5" id="svg_7"/>
+ </g>
+</svg>

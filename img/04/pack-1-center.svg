@@ -1,0 +1,12 @@
+<svg width="234.49999999999997" height="62" xmlns="http://www.w3.org/2000/svg">
+ <g>
+  <title>background</title>
+  <rect x="-1" y="-1" width="236.5" height="64" id="canvas_background" fill="none"/>
+ </g>
+
+ <g>
+  <title>Layer 1</title>
+  <rect id="Rectangle_122" width="134.5" height="20" fill="#d7e603" y="42" x="50"/>
+  <rect id="Rectangle_121" width="234.5" height="20" fill="#d7e603"/>
+ </g>
+</svg>
