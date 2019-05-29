@@ -1,3 +1,5 @@
+
+
 @font-face {
     font-family: 'DOCKERONE';
     src: url('../fonts/DOCKERONE.eot');
@@ -118,9 +120,12 @@
  }
 
 .preloader__img {
-    margin: 0 auto;    
-    -webkit-animation: rotation 1s infinite linear;    
-    animation: rotation 1s infinite linear;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
 }
 
 @-webkit-keyframes rotation {
@@ -161,7 +166,7 @@
 
 .lang-block {
     position: fixed;
-    top: 40%;
+    top: 50%;
     z-index: 1000;
 }
 
@@ -219,7 +224,7 @@ SIDE NAVIGATION
 .nav-side__block {
     position: fixed;
     z-index: 9990;
-    top: 27%;
+    top: 37%;
     right: 0%;
 }
 
@@ -517,6 +522,12 @@ animation: slide-out 1s forwards;
     transform: translateY(-6px) translateX(15px);
 }
 
+.send-titleEn {
+    text-align: center;
+    -webkit-transform: translateX(-5px) translateY(-6px);
+    transform: translateX(-5px) translateY(-6px);
+}
+
 .message__close {
     position: fixed;
     right: 0;
@@ -550,8 +561,14 @@ animation: slide-out 1s forwards;
     font-size: 23px;
     font-family: "HeliosCondBold";
     color: #000000;
-    -webkit-transform: translateY(-6px) translateX(15px);
-    transform: translateY(-6px) translateX(15px);
+    -webkit-transform: translateX(15px) translateY(-6px);
+    transform: translateX(15px) translateY(-6px);
+}
+
+.open-titleEn {
+    text-align: center;
+    -webkit-transform: translateX(-5px) translateY(-6px);
+    transform: translateX(-5px) translateY(-6px);
 }
 
 /* #section-2 */
@@ -627,10 +644,11 @@ animation: slide-out 1s forwards;
 
 .production__image {
     position: absolute;
+    margin: auto;
+    top: 0;
     left: 0;
     right: 0;
-    top: 0;
-    margin: 0 auto;
+    bottom: 0;
 }
 
 .production-btn {
@@ -641,6 +659,12 @@ animation: slide-out 1s forwards;
 
 .tab-content {
     height: 80%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
 }
 
 .tab-pane {
@@ -753,6 +777,9 @@ animation: slide-out 1s forwards;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
 }
 
 .gofrotara__item {
@@ -882,13 +909,20 @@ animation: slide-out 1s forwards;
 }
 
 .tab-link_top {
-    padding-top: 5px;
+    padding-top: 8px;
 }
 
 .packages__content {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.fp-tableCell {
+    vertical-align: unset !important;
 }
 
 .packages__item {
@@ -1015,9 +1049,12 @@ animation: slide-out 1s forwards;
 }
 
 .materials__content {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
 }
 
 .materials__item {
@@ -1195,7 +1232,6 @@ animation: slide-out 1s forwards;
     display: flex;
     -ms-flex-line-pack: center;
     align-content: center;
-    padding-bottom: 3w0px;
 }
 
 .contacts-block {
@@ -1269,11 +1305,13 @@ animation: slide-out 1s forwards;
 }
 
 .contacts-block_bottom {
-    position: relative;
-    top: 50px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 
 .contacts-copyright {
+    text-align: left;
     font-family: "HeliosCondBold";
     font-size: 15px;
 }
@@ -1341,6 +1379,10 @@ animation: slide-out 1s forwards;
 }
 
 @media (max-width: 768px) {
+
+    #header-logo {
+        width: 60%;
+    }
 
     .navbar-collapse {
         -ms-flex-preferred-size: 0;
@@ -1424,8 +1466,6 @@ animation: slide-out 1s forwards;
     
     .production__image {
         height: 80%;
-        margin: 0 auto;
-        top: 30px;
         z-index: 9;
     }
 
@@ -1473,12 +1513,13 @@ animation: slide-out 1s forwards;
     
     .carousel-control-prev, .carousel-control-next {
         top: auto;
-        bottom: 20%;
+        bottom: 15%;
         opacity: 1;
         width: 13%;
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
+        z-index: 10;
     }
 
     .carousel-indicators li {
@@ -1537,6 +1578,10 @@ animation: slide-out 1s forwards;
 
     .contacts-h2 {
         font-size: 45px !important;
+    }
+
+    .tab-content {
+        display: block;
     }
 
     .tab-pills {
@@ -1666,8 +1711,14 @@ animation: slide-out 1s forwards;
         font-size: 35px !important;
     }
 
+    .materials__picture {
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+
     .materials__image {
-        width: 100%;
+        width: 88%;
     }
 
     .materials__text_long {
@@ -1680,5 +1731,9 @@ animation: slide-out 1s forwards;
 
     .contacts-p {
         display: none;
+    }
+
+    .contacts-copyright {
+        text-align: right;
     }
 }
