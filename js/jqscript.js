@@ -45,7 +45,7 @@ $('.openFilePanel').click(function(event) {
         langLinkThird.classList.remove("lang-link_black");
 
         mailIcon.src="./img/fixed/mail-icon.svg";
-        scrollUp.src="./img/fixed/scroll-up.svg";
+        scrollUp.src = "./img/none.png";
         scrollDown.src="./img/fixed/scroll-down.svg";
 
         langBackgroundSource.style.backgroundImage = "url('./img/fixed/lang-bg.svg')";

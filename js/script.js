@@ -1,4 +1,4 @@
-const page__hashList = ['#about','#contacts'];
+const pageIdList = ['#home', '#production', '#gofrotara', '#packages', '#materials', '#materials-2', '#about', '#partners', '#contacts'];
 
 let navLink = document.getElementById("nav-link");
 
@@ -13,7 +13,7 @@ let scrollDown = document.getElementById("scroll-down");
 let langBackgroundSource = document.querySelector(".lang-link_active");
 
 let dynamicStyle = () => {
-    if (window.location.hash == page__hashList[0]) {
+    if (window.location.hash == pageIdList[6]) {
         navLink.classList.add("nav-link_white");
         langLinkFirst.classList.add("lang-link_whiteActive");
         langLinkSecond.classList.add("lang-link_white");
@@ -25,7 +25,7 @@ let dynamicStyle = () => {
 
         langBackgroundSource.style.backgroundImage = "url('./img/fixed/lang-bg.svg')";
 
-    } else if(window.location.hash == page__hashList[1]) {
+    } else if(window.location.hash == pageIdList[8]) {
         navLink.classList.remove("nav-link_white");
         langLinkFirst.classList.remove("lang-link_whiteActive");
         langLinkSecond.classList.remove("lang-link_white");
@@ -45,8 +45,6 @@ let dynamicStyle = () => {
 
         langBackgroundSource.style.backgroundImage = "url('./img/fixed/lang-bg_black.svg')";
 
-    } else if(window.location.hash == page__hashList[8]) {
-        scrollDown.src="./img/none.png";
     } else {
         navLink.classList.remove("nav-link_white");
         langLinkFirst.classList.remove("lang-link_whiteActive");
@@ -70,17 +68,16 @@ let dynamicStyle = () => {
 let scrollUpLink = document.getElementById("scroll-up-link");
 let scrollDownLink = document.getElementById("scroll-down-link");
 
-const pageIdList = ['#home', '#production', '#gofrotara', '#packages', '#materials', '#materials-2', '#about', '#partners', '#contacts'];
-
 let scrollUpDown = () => {
     if (window.location.hash == pageIdList[0]) {
-        scrollUpLink.setAttribute('href', "#home");
-        scrollDownLink.setAttribute('href', "#production");
+      scrollUpLink.setAttribute('href', "#home");
+      scrollDownLink.setAttribute('href', "#production");
 
-        console.log("homelink");
+      scrollUp.src = "./img/none.png";
+
     } else if(window.location.hash == pageIdList[1]) {
-        scrollUpLink.setAttribute('href', "#home");
-        scrollDownLink.setAttribute('href', "#gofrotara");
+      scrollUpLink.setAttribute('href', "#home");
+      scrollDownLink.setAttribute('href', "#gofrotara");
 
     } else if(window.location.hash == pageIdList[2]) {
       scrollUpLink.setAttribute('href', "#production");
@@ -577,7 +574,7 @@ let contactsClass = document.querySelector(".contacts");
 
 let addAnimation = () => {
   if (window.location.hash == pageIdList[0]) {
-    homeClass.classList.add("animated", "fadeInLeft", "delay-2s");
+    homeClass.classList.add("animated", "fadeInLeft", "delay-2000ms");
   } else if(window.location.hash == pageIdList[1]) {
     productionClass.classList.add("animated", "fadeInLeft", "delay-1000ms");
 
