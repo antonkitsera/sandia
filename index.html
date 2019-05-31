@@ -131,7 +131,7 @@
                     
                 </div>
                 <div class="home__img col-md-7 ml-auto d-flex align-self-center">
-                    <img src="./img/01/home-img.gif" width="100%" height="100%" draggable="false" alt="" srcset="">
+                    <img src="./img/01/home-img.gif" class="is-animated" data-animation="fadeInDown" data-delay="600ms" width="100%" height="100%" draggable="false" alt="" srcset="">
                 </div>
             </div>
 
@@ -140,13 +140,13 @@
 
         <section class="section section2" id="section-2">
             <div class="container production">
-                <div class="production__header production__header_desktop is-animated" data-animation="fadeInDown" data-delay="600ms">
-                    <h2 class="production__title">Наша продукція</h2>    
+                <div class="production__header production__header_desktop">
+                    <h2 class="production__title is-animated" data-animation="fadeInDown" data-delay="600ms">Наша продукція</h2>    
                 </div> 
             
                 <div id="carouselExampleIndicators" class="carousel slide" data-pause="true">
-                    <div class="production__header production__header_mobile is-animated" data-animation="fadeInDown" data-delay="600ms">
-                        <h2 class="production__title">Наша продукція</h2>    
+                    <div class="production__header production__header_mobile">
+                        <h2 class="production__title is-animated" data-animation="fadeInDown" data-delay="600ms">Наша продукція</h2>    
                     </div> 
 
                     <ol class="carousel-indicators">
@@ -280,7 +280,7 @@
                         </ol>
 
                         <div class="gofrotara__header gofrotara__header_mobile">
-                            <h2 class="gofrotara__title is-animated" data-animation="fadeInDown" data-delay="600ms">Мішки паперові</h2>    
+                            <h2 class="gofrotara__title is-animated" data-animation="fadeInDown" data-delay="600ms">Гофротара</h2>    
                         </div> 
         
                     
@@ -399,7 +399,7 @@
                                 </div>
                             </div>
         
-                            <div id="pack-2" class="carousel-item is-animated packages__item tab-pane"   data-animation="fadeInDown" data-delay="600ms">
+                            <div id="pack-2" class="carousel-item  packages__item tab-pane">
                                 <div class="packages__block">
                                     <div class="packages__picture">
                                         <img class="packages__image" src="./img/04/pack-2.svg" draggable="false" alt="" srcset="">
@@ -445,7 +445,7 @@
                     
                     <div id="carouselMater" class="carousel slide" data-pause="true">
         
-                        <ol class="carousel-indicators">
+                        <ol class="carousel-indicators carousel-indicators-transform">
                             <li data-target="#carouselMater" data-slide-to="0" class="active"></li>
                             <li data-target="#carouselMater" data-slide-to="1"></li>
                             <li data-target="#carouselMater" data-slide-to="2"></li>
@@ -541,7 +541,7 @@
         </section>
 
         <section class="section section7" id="section-7">
-            <div class="container">
+            <div class="container container_mobile">
             <div class="about row">
                 <div class="about-first col-md-4 offset-md-2">
                     <h2 class="about-h2 is-animated" data-animation="fadeInDown" data-delay="600ms">Наша компанія</h2>
@@ -654,7 +654,6 @@
 </script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-
 
 </body>
 </html>
