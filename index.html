@@ -9,15 +9,15 @@
     <!-- STYLES -->
     <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
-    <link rel="stylesheet" type="text/css" href="./css/fullpage.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/fullpage.min.css">
     <link rel="stylesheet" href="./css/style.css">
 
 </head>
 <body onhashchange="startFunctions()">
     <!-- PRELOAD ANIMATION -->
     <div class="preloader">
-        <img class="preloader__img" src="./img/loader.gif" alt="" height="200px" width="220px" srcset="">
+        <img class="preloader__img" src="./img/loader.gif" alt="" height="155px" width="170px" srcset="">
     </div>
 
     <header>
@@ -109,7 +109,7 @@
 
             <div class="send-block text-center text-md-left">
                 <div class="send-message">
-                    <p class="send-title" onclick="document.getElementById('contact-form').submit();">НАДІСЛАТИ</p>
+                    <p class="send-title">НАДІСЛАТИ</p>
                 </div>
             </div>
         </div>
@@ -118,14 +118,14 @@
     </div>
 
     <div id="fullpage">
-        <div class="section" id="section-1">
+        <section class="section section1" id="section-1">
             <div class="container">
             <div class="home animated fadeInLeft delay-2s">
                 <div class="col-md-4 col-sm-12 offset-md-1 offset-sm-0 d-flex align-content-around row">
-                    <h1 class="h1 home__title">Захід Крафт Ресурс</h1>
-                    <h5 class="h5 home__text col-sm-12">Повний цикл виробництва<br>гофроупаковки<br>та паперового мішка
+                    <h1 class="h1 home__title is-animated"   data-animation="fadeInDown" data-delay="600ms">Захід Крафт Ресурс</h1>
+                    <h5 class="h5 home__text col-sm-12 is-animated"   data-animation="fadeInDown" data-delay="600ms">Повний цикл виробництва<br>гофроупаковки<br>та паперового мішка
                     </h5>
-                    <div class="openFilePanel open-message">
+                    <div class="openFilePanel open-message is-animated"   data-animation="fadeInDown" data-delay="600ms">
                         <p class="open-title">ПОВІДОМЛЕННЯ</p>
                     </div>
                     
@@ -136,16 +136,16 @@
             </div>
 
             </div>
-        </div>
+        </section>
 
-        <div class="section" id="section-2">
+        <section class="section section2" id="section-2">
             <div class="container production">
-                <div class="production__header production__header_desktop">
+                <div class="production__header production__header_desktop is-animated" data-animation="fadeInDown" data-delay="600ms">
                     <h2 class="production__title">Наша продукція</h2>    
                 </div> 
             
                 <div id="carouselExampleIndicators" class="carousel slide" data-pause="true">
-                    <div class="production__header production__header_mobile">
+                    <div class="production__header production__header_mobile is-animated" data-animation="fadeInDown" data-delay="600ms">
                         <h2 class="production__title">Наша продукція</h2>    
                     </div> 
 
@@ -159,7 +159,7 @@
                     </ol>     
 
                     <div class="carousel-inner tab-content">
-                        <div id="prod-1" class="carousel-item production__item col-md-8 offset-md-2 container tab-pane active">
+                        <div id="prod-1" class="carousel-item production__item col-md-8 offset-md-2 container tab-pane active is-animated" data-animation="fadeInDown" data-delay="800ms">
                             <div class="production__name col-md-5 offset-md-3">
                                 <h4 class="production__name_text">Гофрокартон</h4>
                             </div>
@@ -223,49 +223,49 @@
                 
                 <div class="production-btn d-flex justify-content-center">
                     <ul class="nav tab-pills col-md-8 d-flex justify-content-center" role="tablist">
-                        <li class="tab-item">
+                        <li class="tab-item is-animated" data-animation="fadeInDown" data-delay="1000ms">
                         <a class="tab-link active" data-toggle="pill" href="#prod-1">Гофрокартон</a>
                         </li>
-                        <li class="tab-item">
+                        <li class="tab-item is-animated" data-animation="fadeInDown" data-delay="1200ms">
                         <a class="tab-link" data-toggle="pill" href="#prod-2">Гофроящики</a>
                         </li>
-                        <li class="tab-item">
+                        <li class="tab-item is-animated" data-animation="fadeInDown" data-delay="1400ms">
                         <a class="tab-link" data-toggle="pill" href="#prod-3">Мішки / пакети</a>
                         </li>
-                        <li class="tab-item">
+                        <li class="tab-item is-animated" data-animation="fadeInDown" data-delay="2000ms">
                         <a class="tab-link" data-toggle="pill" href="#prod-4">Флексографічний друк</a>
                         </li>
-                        <li class="tab-item">
+                        <li class="tab-item is-animated" data-animation="fadeInDown" data-delay="1800ms">
                             <a class="tab-link" data-toggle="pill" href="#prod-5">Картонні гільзи / кутники</a>
                         </li>
-                        <li class="tab-item">
+                        <li class="tab-item is-animated" data-animation="fadeInDown" data-delay="1600ms">
                             <a class="tab-link" data-toggle="pill" href="#prod-6">Стрейч плівки / скотч</a>
                         </li>
                     </ul>
                 </div>
                 
             </div>
-        </div>
+        </section>
 
-        <div class="section" id="section-3">
+        <section class="section section3" id="section-3">
             <div class="container">
-                <div class="gofrotara">
+                <div class="gofrotara wow fadeInLeft">
                 <div class="gofrotara__header gofrotara__header_desktop">
-                    <h2 class="gofrotara__title">Гофротара</h2>    
+                    <h2 class="gofrotara__title is-animated" data-animation="fadeInDown" data-delay="600ms">Гофротара</h2>    
                 </div> 
 
                 <div class="d-flex">
                     <ul class="nav col-md-3 offset-md-1 tab-pills d-flex align-content-center" role="tablist">
-                        <li class="tab-item tab-item_big">
+                        <li class="tab-item tab-item_big is-animated" data-animation="fadeInDown" data-delay="800ms">
                         <a class="tab-link tab-link_big active" data-toggle="pill" href="#gofr-1">Чотирьох клапанна</a>
                         </li>
-                        <li class="tab-item tab-item_big">
+                        <li class="tab-item tab-item_big is-animated" data-animation="fadeInDown" data-delay="1000ms">
                         <a class="tab-link tab-link_big" data-toggle="pill" href="#gofr-2">Складна висічка</a>
                         </li>
-                        <li class="tab-item tab-item_big">
+                        <li class="tab-item tab-item_big is-animated" data-animation="fadeInDown" data-delay="1200ms">
                         <a class="tab-link tab-link_big" data-toggle="pill" href="#gofr-3">Великогабаритна тара</a>
                         </li>
-                        <li class="tab-item tab-item_big">
+                        <li class="tab-item tab-item_big is-animated" data-animation="fadeInDown" data-delay="1400ms">
                         <a class="tab-link tab-link_big" data-toggle="pill" href="#gofr-4">Комплектуючі</a>
                         </li>
                     </ul>
@@ -280,7 +280,7 @@
                         </ol>
 
                         <div class="gofrotara__header gofrotara__header_mobile">
-                            <h2 class="gofrotara__title">Мішки паперові</h2>    
+                            <h2 class="gofrotara__title is-animated" data-animation="fadeInDown" data-delay="600ms">Мішки паперові</h2>    
                         </div> 
         
                     
@@ -288,12 +288,12 @@
                             <div id="gofr-1" class="carousel-item gofrotara__item tab-pane active">
                                 <div class="gofrotara__block">
                                     <div class="gofrotara__picture">
-                                        <img class="gofrotara__image" src="./img/03/gofr-1.svg" draggable="false" alt="" srcset="">
+                                        <img class="gofrotara__image is-animated" data-animation="fadeInDown" data-delay="1600ms" src="./img/03/gofr-1.svg" draggable="false" alt="" srcset="">
                                     </div>
                                     
                                     <div class="gofrotara__desc">
-                                        <h3 class="gofrotara__h3">Чотириклапанний гофроящик</h3>
-                                        <p class="gofrotara__text">За каталогом  FEFCO 0201 Найпоширеніший тип упаковки для транспортування продукції.<span class="gofrotara__text_hide"><br><br>Забезпечують хороший захист продукції під час складання, відвантаження та зберігання.</span></p>
+                                        <h3 class="gofrotara__h3 is-animated" data-animation="fadeInDown" data-delay="1800ms">Чотириклапанний гофроящик</h3>
+                                        <p class="gofrotara__text is-animated" data-animation="fadeInDown" data-delay="2000ms">За каталогом  FEFCO 0201 Найпоширеніший тип упаковки для транспортування продукції.<span class="gofrotara__text_hide"><br><br>Забезпечують хороший захист продукції під час складання, відвантаження та зберігання.</span></p>
                                     </div>                  
                                 </div>
                             </div>
@@ -351,24 +351,24 @@
                 </div>
             </div>
             </div>
-        </div>
+        </section>
         
-        <div class="section" id="section-4">
+        <section class="section section4" id="section-4">
             <div class="container">
                 <div class="packages">
                 <div class="packages__header packages__header_desktop">
-                    <h2 class="packages__title">Мішки паперові</h2>    
+                    <h2 class="packages__title is-animated"   data-animation="fadeInDown" data-delay="600ms">Мішки паперові</h2>    
                 </div> 
 
                 <div class="d-flex">
                     <ul class="nav col-md-3 offset-md-1 tab-pills d-flex align-content-center" role="tablist">
-                        <li class="tab-item tab-item_medium">
+                        <li class="tab-item tab-item_medium is-animated"   data-animation="fadeInDown" data-delay="800ms">
                         <a class="tab-link tab-link_big tab-link_left active" data-toggle="pill" href="#pack-1">Мішок клапанний</a>
                         </li>
-                        <li class="tab-item tab-item_medium">
+                        <li class="tab-item tab-item_medium is-animated"   data-animation="fadeInDown" data-delay="1000ms">
                         <a class="tab-link tab-link_big tab-link_left" data-toggle="pill" href="#pack-2">Мішок відкритий</a>
                         </li>
-                        <li class="tab-item tab-item_medium tab-item_higher">
+                        <li class="tab-item tab-item_medium tab-item_higher is-animated" data-animation="fadeInDown" data-delay="1200ms">
                         <a class="tab-link tab-link_big tab-link_left tab-link_top" data-toggle="pill" href="#pack-3">Паперові пакети<br>під вугілля</a>
                         </li>
                     </ul>
@@ -382,24 +382,24 @@
                         </ol>
 
                         <div class="packages__header packages__header_mobile">
-                            <h2 class="packages__title">Мішки паперові</h2>    
+                            <h2 class="packages__title is-animated"   data-animation="fadeInDown" data-delay="600ms">Мішки паперові</h2>    
                         </div> 
         
                         <div class="carousel-inner packages__content tab-content">
-                            <div id="pack-1" class="carousel-item packages__item tab-pane active">
+                            <div id="pack-1" class="carousel-item is-animated packages__item tab-pane active"   data-animation="fadeInDown" data-delay="600ms">
                                 <div class="packages__block">
                                     <div class="packages__picture">
-                                        <img class="packages__image" src="./img/04/pack-1.svg" draggable="false" alt="" srcset="">
+                                        <img class="packages__image is-animated" src="./img/04/pack-1.svg"   data-animation="fadeInDown" data-delay="1800ms" draggable="false">
                                     </div>
                                     
                                     <div class="packages__desc">
-                                        <h3 class="packages__h3">Мішки паперові клапанні</h3>
-                                        <p class="packages__text">Це мішки склеєні згори і знизу, що мають один отвір з клапаном для засипки продукції. І є чудовим варіантом для зберігання будь-яких сипучих матеріалів використовуваних в харчовій промисловості, будівництві або сільському господарстві.</p>
+                                        <h3 class="packages__h3 is-animated"   data-animation="fadeInDown" data-delay="2000ms">Мішки паперові клапанні</h3>
+                                        <p class="packages__text is-animated"   data-animation="fadeInDown" data-delay="2200ms">Це мішки склеєні згори і знизу, що мають один отвір з клапаном для засипки продукції. І є чудовим варіантом для зберігання будь-яких сипучих матеріалів використовуваних в харчовій промисловості, будівництві або сільському господарстві.</p>
                                     </div>                  
                                 </div>
                             </div>
         
-                            <div id="pack-2" class="carousel-item packages__item tab-pane">
+                            <div id="pack-2" class="carousel-item is-animated packages__item tab-pane"   data-animation="fadeInDown" data-delay="600ms">
                                 <div class="packages__block">
                                     <div class="packages__picture">
                                         <img class="packages__image" src="./img/04/pack-2.svg" draggable="false" alt="" srcset="">
@@ -435,9 +435,9 @@
                 </div>
             </div>
             </div>
-        </div>
+        </section>
 
-        <div class="section" id="section-5">
+        <section class="section section5" id="section-5">
             <div class="container">
                 <div class="materials column">
 
@@ -458,12 +458,12 @@
     
                                     
                                     <div class="materials__desc">
-                                        <h3 class="materials__h3">Гофрокартон двохшаровий</h3>
-                                        <p class="materials__text">Зберігається в рулонах, є універсальним пакувальним матеріалом. Має доступну ціну, також займає мало місця при перевезенні і зберіганні, не вимагає додаткової упаковки при транспортуванні завдяки міцності.</p>
+                                        <h3 class="materials__h3 is-animated" data-animation="fadeInDown" data-delay="600ms">Гофрокартон двохшаровий</h3>
+                                        <p class="materials__text is-animated" data-animation="fadeInDown" data-delay="800ms">Зберігається в рулонах, є універсальним пакувальним матеріалом. Має доступну ціну, також займає мало місця при перевезенні і зберіганні, не вимагає додаткової упаковки при транспортуванні завдяки міцності.</p>
                                     </div>     
                                     
                                     <div class="materials__picture">
-                                        <img class="materials__image" src="./img/05/mater-1.svg" draggable="false" alt="" srcset="">
+                                        <img class="materials__image is-animated" data-animation="fadeInDown" data-delay="1000ms" src="./img/05/mater-1.svg" draggable="false" alt="" srcset="">
                                     </div>
                                 </div>
                             </div>
@@ -513,13 +513,13 @@
 
                     <div class="materials-btn">
                     <ul class="nav col-md-10 offset-md-1 tab-pills" role="tablist">
-                        <li class="tab-item tab-item_first">
+                        <li class="tab-item tab-item_first is-animated" data-animation="fadeInDown" data-delay="1200ms">
                         <a class="tab-link active" data-toggle="pill" href="#mater-1">Гофрокартон двохшаровий</a>
                         </li>
-                        <li class="tab-item tab-item_second">
+                        <li class="tab-item tab-item_second is-animated" data-animation="fadeInDown" data-delay="1400ms">
                         <a class="tab-link" data-toggle="pill" href="#mater-2">Гофрокартон трьохшаровий</a>
                         </li>
-                        <li class="tab-item tab-item_third">
+                        <li class="tab-item tab-item_third is-animated" data-animation="fadeInDown" data-delay="1600ms">
                         <a class="tab-link" data-toggle="pill" href="#mater-3">Гофрокартон пятишаровий</a>
                         </li>
                     </ul>
@@ -527,96 +527,96 @@
                 </div>
 
             </div>
-        </div>
+        </section>
 
      
 
-        <div class="section" id="section-6">
+        <section class="section section6" id="section-6">
             <div class="materials-2_background container d-flex align-items-center">
             <div class="materials-2 col-lg-5 col-md-12">
-                <h2 class="materials-2-title">Флексодрук</h2>
-                <p class="materials-2-text">Це один з найпопулярніших способів нанесення зображень, логотипів і написів на папері. За допомогою застосування послуги флексодруку, крафт папір набуває більш привабливого зовнішнього вигляду.<br><br>Компанія Захід Крафт Ресурс використовує флексографічне обладнання італійської компанії Bielloni Castello з великим спектром можливостей, яке дозволяє проводити шестиколірний друк фарбами на водній основі на рулоні шириною до 1050 мм.</p>
+                <h2 class="materials-2-title is-animated" data-animation="fadeInDown" data-delay="800ms">Флексодрук</h2>
+                <p class="materials-2-text is-animated" data-animation="fadeInDown" data-delay="600ms">Це один з найпопулярніших способів нанесення зображень, логотипів і написів на папері. За допомогою застосування послуги флексодруку, крафт папір набуває більш привабливого зовнішнього вигляду.<br><br>Компанія Захід Крафт Ресурс використовує флексографічне обладнання італійської компанії Bielloni Castello з великим спектром можливостей, яке дозволяє проводити шестиколірний друк фарбами на водній основі на рулоні шириною до 1050 мм.</p>
             </div>
             </div>
-        </div>
+        </section>
 
-        <div class="section" id="section-7">
+        <section class="section section7" id="section-7">
             <div class="container">
             <div class="about row">
                 <div class="about-first col-md-4 offset-md-2">
-                    <h2 class="about-h2">Наша компанія</h2>
-                    <p class="about-p">Динамічне підприємство на ринку паперової упаковки України з 2014 року. Виробничі потужності компанії знаходяться у м. Жидачів, Львівська область. <span class="about__mobile_hide">Маємо великий досвід з виробництва паперової та картонної упаковки для харчових та нехарчових продуктів.</span></p>
-                    <div class="d-flex">
+                    <h2 class="about-h2 is-animated" data-animation="fadeInDown" data-delay="600ms">Наша компанія</h2>
+                    <p class="about-p is-animated"  data-animation="fadeInDown" data-delay="1000ms">Динамічне підприємство на ринку паперової упаковки України з 2014 року. Виробничі потужності компанії знаходяться у м. Жидачів, Львівська область. <span class="about__mobile_hide">Маємо великий досвід з виробництва паперової та картонної упаковки для харчових та нехарчових продуктів.</span></p>
+                    <div class="d-flex is-animated"  data-animation="fadeInDown" data-delay="1400ms">
                         <img class="about-eye" src="./img/07/about-eye.svg" draggable="false" alt="">
                         <h5 class="about-h5 about-h5_yellow">ВИСНОВОК<br>державної санітарно-<br>епідеміологічної експертизи</h5>
                     </div>
                 </div>
 
                 <div class="about-second col-md-3 col-sm-12">
-                    <div class="d-flex">
+                    <div class="d-flex is-animated"  data-animation="fadeInDown" data-delay="1800ms">
                         <img class="about-cup" src="./img/07/about-cup.svg" draggable="false" alt="" srcset="">
                         <h5 class="about-h5">Швидке<br>виконання</h5>
                     </div>
-                    <div class="d-flex">
+                    <div class="d-flex is-animated"  data-animation="fadeInDown" data-delay="2200ms">
                         <img class="about-cup" src="./img/07/about-cup.svg" draggable="false" alt="" srcset="">
                         <h5 class="about-h5">Відмінна<br>якість</h5>
                     </div>
-                    <div class="d-flex">
+                    <div class="d-flex is-animated"  data-animation="fadeInDown" data-delay="2600ms">
                         <img class="about-cup" src="./img/07/about-cup.svg" draggable="false" alt="" srcset="">
                         <h5 class="about-h5">Розумна<br>ціна</h5>
                     </div>
                 </div>
             </div>
             </div>
-        </div>
+        </section>
         
-        <div class="section" id="section-8">
+        <section class="section section8" id="section-8">
             <div class="container d-flex">
             <div class="partners">
-                <div class="partners-header col-md-5 offset-md-2">
+                <div class="partners-header is-animated col-md-5 offset-md-2" id="partners-header" data-animation="fadeInDown" data-delay="600ms">
                     <h2 class="partners-h2">Нам довіряють</h2>
                 </div>
 
                 <div class="partners-block col-md-8 offset-md-2 col-sm-12">
-                    <div class="partners-item">
-                        <img class="partners__img" src="./img/08/partner-1.svg" draggable="false" alt="">
+                    <div class="partners-item" id="partner-1">
+                        <img class="partners__img is-animated" src="./img/08/partner-1.svg" draggable="false"  data-animation="fadeInDown" data-delay="800ms">
                     </div>
-                    <div class="partners-item">
-                        <img class="partners__img" src="./img/08/partner-2.svg" draggable="false" alt="">
+                    <div class="partners-item" id="partner-2">
+                        <img class="partners__img is-animated" src="./img/08/partner-2.svg" draggable="false" data-animation="fadeInDown" data-delay="1000ms">
                     </div>
-                    <div class="partners-item">
-                        <img class="partners__img" src="./img/08/partner-3.svg" draggable="false" alt="">
+                    <div class="partners-item" id="partner-3">
+                        <img class="partners__img is-animated" src="./img/08/partner-3.svg" draggable="false" data-animation="fadeInDown" data-delay="1200ms">
                     </div>
-                    <div class="partners-item">
-                        <img class="partners__img" src="./img/08/partner-4.svg" draggable="false" alt="">
+                    <div class="partners-item" id="partner-4">
+                        <img class="partners__img is-animated" src="./img/08/partner-4.svg" draggable="false" data-animation="fadeInDown" data-delay="1800ms">
                     </div>
-                    <div class="partners-item">
-                        <img class="partners__img" src="./img/08/partner-5.svg" draggable="false" alt="">
+                    <div class="partners-item" id="partner-5">
+                        <img class="partners__img is-animated" src="./img/08/partner-5.svg" draggable="false" data-animation="fadeInDown" data-delay="1600ms">
                     </div>
-                    <div class="partners-item">
-                        <img class="partners__img" src="./img/08/partner-6.svg" draggable="false" alt="">
+                    <div class="partners-item" id="partner-6">
+                        <img class="partners__img is-animated" src="./img/08/partner-6.svg" draggable="false" data-animation="fadeInDown" data-delay="1400ms">
                     </div>
                 </div>
             </div>
             </div>
-        </div>
+        </section>
 
-        <div class="section" id="section-9">
+        <section class="section section9" id="section-9">
             <div class="container">
             <div class="contacts row">
                 <div class="contacts-first col-md-4 offset-md-2">
-                    <h2 class="contacts-h2">Контакти</h2>
+                    <h2 class="contacts-h2 is-animated"  data-animation="fadeInDown" data-delay="600ms">Контакти</h2>
                     
                 <div class="contacts-block">
-                    <div class="contacts-item">
+                    <div class="contacts-item is-animated"  data-animation="fadeInDown" data-delay="1000ms">
                         <img class="contacts-icon" src="./img/09/contacts-mail.svg" draggable="false" alt="" srcset="">
                         <h5 class="contacts-h5">zaxidcraft@gmail.com</h5>
                     </div>
-                    <div class="contacts-item">
+                    <div class="contacts-item is-animated"  data-animation="fadeInDown" data-delay="1400ms">
                         <img class="contacts-icon" src="./img/09/contacts-phone.svg" draggable="false" alt="" srcset="">
                         <h5 class="contacts-h5">+3800000000</h5>
                     </div>
-                    <div class="contacts-item">
+                    <div class="contacts-item is-animated"  data-animation="fadeInDown" data-delay="1800ms">
                         <img class="contacts-icon contacts-icon-location" src="./img/09/contacts-location.svg" draggable="false" alt="" srcset="">
                         <h5 class="contacts-h5">81700<br>вул.Залізнична 3, м.Жидачів,<br>Львівська обл., Україна</h5>
                     </div>
@@ -625,26 +625,28 @@
                 </div>
 
                 <div class="contacts-second col-md-3">
-                    <p class="contacts-p">Залиште повідомлення<br>і ми зв'яжемось з вами</p>
-                    <div class="open-message open-message_white openFilePanel">
+                    <p class="contacts-p is-animated"  data-animation="fadeInDown" data-delay="2200ms">Залиште повідомлення<br>і ми зв'яжемось з вами</p>
+                    <div class="open-message open-message_white openFilePanel is-animated" data-animation="fadeInDown" data-delay="2600ms">
                         <p class="open-title">ПОВІДОМЛЕННЯ</p>
                     </div>
                 </div>
 
-                <div class="contacts-block_bottom col-md-4 offset-md-2">
+                <div class="contacts-block_bottom col-md-4 offset-md-2 is-animated" data-animation="fadeInDown" data-delay="3000ms">
                     <p class="contacts-copyright">designed and developed by Sandia Studio</p>
                 </div>
             </div>
             </div>
-        </div>  
+        </section>  
     </div>
     </main>
 
 
-<script src="./js/script.js"></script>
-<script type="text/javascript" src="./js/fullpage.js"></script>
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.2/jquery.fullPage.min.js"></script>
+<script src="./js/script.js"></script>
 <script src="./js/jqscript.js"></script>
+<script src="./js/animateSliders.js"></script>
 <script>
     document.addEventListener('DOMContentLoaded', function() {
         startFunctions();
@@ -652,12 +654,7 @@
 </script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-<script>
-    var myFullpage = new fullpage('#fullpage', {
-        anchors: ['home', 'production', 'gofrotara', 'packages', 'materials', 'materials-2', 'about', 'partners', 'contacts'],
-        navigation: false
-    }); 
-</script>
+
 
 </body>
 </html>

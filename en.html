@@ -10,14 +10,14 @@
     <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
-    <link rel="stylesheet" type="text/css" href="./css/fullpage.css">
+    <link rel="stylesheet" type="text/css" href="./css/fullpage.min.css">
     <link rel="stylesheet" href="./css/style.css">
 
 </head>
 <body onhashchange="startFunctions()">
     <!-- PRELOAD ANIMATION -->
     <div class="preloader">
-        <img class="preloader__img" src="./img/loader.gif" alt="" height="200px" width="220px" srcset="">
+        <img class="preloader__img" src="./img/loader.gif" alt="" height="155px" width="170px" srcset="">
     </div>
 
     <header>
@@ -109,7 +109,7 @@
 
             <div class="send-block text-center text-md-left">
                 <div class="send-message">
-                    <p class="send-title send-titleEn" onclick="document.getElementById('contact-form').submit();">SEND</p>
+                    <p class="send-title send-titleEn">SEND</p>
                 </div>
             </div>
         </div>
@@ -118,13 +118,13 @@
     </div>
 
     <div id="fullpage">
-        <div class="section" id="section-1">
+        <section class="section section1" id="section-1">
             <div class="container">
             <div class="home animated fadeInLeft delay-2s">
                 <div class="col-md-4 col-sm-12 offset-sm-0 d-flex align-content-around row">
-                    <h1 class="h1 home__title">Zakhid Kraft Resource</h1>
-                    <h5 class="h5 home__text col-sm-12">Full cycle of production<br>of cardboard packaging <br>and paper bag.</h5>
-                    <div class="openFilePanel open-message">
+                    <h1 class="h1 home__title is-animated"  data-animation="fadeInDown" data-delay="600ms">Zakhid Kraft Resource</h1>
+                    <h5 class="h5 home__text col-sm-12 is-animated"  data-animation="fadeInDown" data-delay="600ms">Full cycle of production<br>of cardboard packaging <br>and paper bag.</h5>
+                    <div class="openFilePanel open-message is-animated"  data-animation="fadeInDown" data-delay="600ms">
                         <p class="open-title open-titleEn">MESSAGE</p>
                     </div>
                     
@@ -135,16 +135,16 @@
             </div>
 
             </div>
-        </div>
+        </section>
 
-        <div class="section" id="section-2">
+        <section class="section section2" id="section-2">
             <div class="container production">
-                <div class="production__header production__header_desktop">
+                <div class="production__header production__header_desktop is-animated" data-animation="fadeInDown" data-delay="600ms">
                     <h2 class="production__title">Our production</h2>    
                 </div> 
             
                 <div id="carouselExampleIndicators" class="carousel slide" data-pause="true">
-                    <div class="production__header production__header_mobile">
+                    <div class="production__header production__header_mobile is-animated"  data-animation="fadeInDown" data-delay="600ms">
                         <h2 class="production__title">Our production</h2>    
                     </div> 
 
@@ -158,7 +158,7 @@
                     </ol>     
 
                     <div class="carousel-inner tab-content">
-                        <div id="prod-1" class="carousel-item production__item col-md-8 offset-md-2 container tab-pane active">
+                        <div id="prod-1" class="carousel-item production__item col-md-8 offset-md-2 container tab-pane active is-animated"  data-animation="fadeInDown" data-delay="800ms">
                             <div class="production__name productionEn__name_first col-md-7 offset-md-3">
                                 <h4 class="production__name_text">Corrugated cardboard</h4>
                             </div>
@@ -222,49 +222,49 @@
                 
                 <div class="production-btn d-flex justify-content-center">
                     <ul class="nav tab-pills col-md-8 d-flex justify-content-center" role="tablist">
-                        <li class="tab-item">
+                        <li class="tab-item is-animated"  data-animation="fadeInDown" data-delay="1000ms">
                         <a class="tab-link active" data-toggle="pill" href="#prod-1">Corrugated cardboard</a>
                         </li>
-                        <li class="tab-item">
+                        <li class="tab-item is-animated"  data-animation="fadeInDown" data-delay="1200ms">
                         <a class="tab-link" data-toggle="pill" href="#prod-2">Craft packages</a>
                         </li>
-                        <li class="tab-item">
+                        <li class="tab-item is-animated"  data-animation="fadeInDown" data-delay="1400ms">
                         <a class="tab-link" data-toggle="pill" href="#prod-3">Paper bags</a>
                         </li>
-                        <li class="tab-item">
+                        <li class="tab-item is-animated"  data-animation="fadeInDown" data-delay="2000ms">
                         <a class="tab-link" data-toggle="pill" href="#prod-4">Flexoprinting</a>
                         </li>
-                        <li class="tab-item">
+                        <li class="tab-item is-animated"  data-animation="fadeInDown" data-delay="1800ms">
                             <a class="tab-link" data-toggle="pill" href="#prod-5">Paper tubes and edges</a>
                         </li>
-                        <li class="tab-item">
+                        <li class="tab-item is-animated"  data-animation="fadeInDown" data-delay="1600ms">
                             <a class="tab-link" data-toggle="pill" href="#prod-6">Stretch wrap and tape</a>
                         </li>
                     </ul>
                 </div>
                 
             </div>
-        </div>
+        </section>
 
-        <div class="section" id="section-3">
+        <section class="section section3" id="section-3">
             <div class="container">
                 <div class="gofrotara">
                 <div class="gofrotara__header gofrotara__header_desktop">
-                    <h2 class="gofrotara__title">Corrugated cardboard</h2>    
+                    <h2 class="gofrotara__title is-animated"  data-animation="fadeInDown" data-delay="600ms">Corrugated cardboard</h2>    
                 </div> 
 
                 <div class="d-flex">
                     <ul class="nav col-md-3 offset-md-1 tab-pills d-flex align-content-center" role="tablist">
-                        <li class="tab-item tab-item_big">
+                        <li class="tab-item tab-item_big is-animated"  data-animation="fadeInDown" data-delay="800ms">
                         <a class="tab-link tab-link_big active" data-toggle="pill" href="#gofr-1">Cardboard boxes</a>
                         </li>
-                        <li class="tab-item tab-item_big">
+                        <li class="tab-item tab-item_big is-animated"  data-animation="fadeInDown" data-delay="1000ms">
                         <a class="tab-link tab-link_big" data-toggle="pill" href="#gofr-2">Cardboard cases</a>
                         </li>
-                        <li class="tab-item tab-item_big">
+                        <li class="tab-item tab-item_big is-animated"  data-animation="fadeInDown" data-delay="1200ms">
                         <a class="tab-link tab-link_big" data-toggle="pill" href="#gofr-3">Large-size packaging</a>
                         </li>
-                        <li class="tab-item tab-item_big">
+                        <li class="tab-item tab-item_big is-animated"  data-animation="fadeInDown" data-delay="1400ms">
                         <a class="tab-link tab-link_big" data-toggle="pill" href="#gofr-4">Accessories</a>
                         </li>
                     </ul>
@@ -279,7 +279,7 @@
                         </ol>
 
                         <div class="gofrotara__header gofrotara__header_mobile">
-                            <h2 class="gofrotara__title">Corrugated cardboard</h2>    
+                            <h2 class="gofrotara__title is-animated"  data-animation="fadeInDown" data-delay="600ms">Corrugated cardboard</h2>    
                         </div> 
         
                     
@@ -287,12 +287,12 @@
                             <div id="gofr-1" class="carousel-item gofrotara__item tab-pane active">
                                 <div class="gofrotara__block">
                                     <div class="gofrotara__picture">
-                                        <img class="gofrotara__image" src="./img/03/gofr-1.svg" draggable="false" alt="" srcset="">
+                                        <img class="gofrotara__image is-animated"  data-animation="fadeInDown" data-delay="1600ms" src="./img/03/gofr-1.svg" draggable="false" alt="" srcset="">
                                     </div>
                                     
                                     <div class="gofrotara__desc">
-                                        <h3 class="gofrotara__h3 gofrotaraEn_first">Cardboard boxes</h3>
-                                        <p class="gofrotara__text">
+                                        <h3 class="gofrotara__h3 gofrotaraEn_first is-animated"  data-animation="fadeInDown" data-delay="1800ms">Cardboard boxes</h3>
+                                        <p class="gofrotara__text is-animated"  data-animation="fadeInDown" data-delay="2000ms">
                                             Four-valve corrugated boxes, according to the catalog FEFCO 0201 is the most common type of packaging for transportation of products.<span class="gofrotara__text_hide"><br><br>Provides good product protection during assembly, shipment and storage.</span></p>
                                     </div>                  
                                 </div>
@@ -353,24 +353,24 @@
                 </div>
             </div>
             </div>
-        </div>
+        </section>
         
-        <div class="section" id="section-4">
+        <section class="section section4" id="section-4">
             <div class="container">
                 <div class="packages">
                 <div class="packages__header packages__header_desktop">
-                    <h2 class="packages__title">Paper bags</h2>    
+                    <h2 class="packages__title is-animated"  data-animation="fadeInDown" data-delay="600ms">Paper bags</h2>    
                 </div> 
 
                 <div class="d-flex">
                     <ul class="nav col-md-3 offset-md-1 tab-pills d-flex align-content-center" role="tablist">
-                        <li class="tab-item tab-item_medium">
+                        <li class="tab-item tab-item_medium is-animated"  data-animation="fadeInDown" data-delay="800ms">
                         <a class="tab-link tab-link_big tab-link_left active" data-toggle="pill" href="#pack-1">Valve paper bag</a>
                         </li>
-                        <li class="tab-item tab-item_medium">
+                        <li class="tab-item tab-item_medium is-animated"  data-animation="fadeInDown" data-delay="1000ms">
                         <a class="tab-link tab-link_big tab-link_left" data-toggle="pill" href="#pack-2">Glued-bottom bag</a>
                         </li>
-                        <li class="tab-item tab-item_medium tab-item_higher">
+                        <li class="tab-item tab-item_medium tab-item_higher is-animated"  data-animation="fadeInDown" data-delay="1200ms">
                         <a class="tab-link tab-link_big tab-link_left tab-link_top" data-toggle="pill" href="#pack-3">Paper sacks<br>for charcoal</a>
                         </li>
                     </ul>
@@ -384,14 +384,14 @@
                         </ol>
 
                         <div class="packages__header packages__header_mobile">
-                            <h2 class="packages__title">Paper bags</h2>    
+                            <h2 class="packages__title is-animated"  data-animation="fadeInDown" data-delay="600ms">Paper bags</h2>    
                         </div> 
         
                         <div class="carousel-inner packages__content tab-content">
-                            <div id="pack-1" class="carousel-item packages__item tab-pane active">
+                            <div id="pack-1" class="carousel-item packages__item is-animated tab-pane active"  data-animation="fadeInDown" data-delay="600ms">
                                 <div class="packages__block">
                                     <div class="packages__picture">
-                                        <img class="packages__image" src="./img/04/pack-1.svg" draggable="false" alt="" srcset="">
+                                        <img class="packages__image is-animated"  data-animation="fadeInDown" data-delay="1800ms" src="./img/04/pack-1.svg" draggable="false" alt="" srcset="">
                                     </div>
                                     
                                     <div class="packages__desc">
@@ -437,9 +437,9 @@
                 </div>
             </div>
             </div>
-        </div>
+        </section>
 
-        <div class="section" id="section-5">
+        <section class="section section5" id="section-5">
             <div class="container">
                 <div class="materials column">
 
@@ -460,12 +460,12 @@
     
                                     
                                     <div class="materials__desc">
-                                        <h3 class="materials__h3">Single face board</h3>
-                                        <p class="materials__text">Is stored in rolls, is a universal packing material. Allows you to ensure the safety of different product groups during transportation.<span class="materials__text_hide"> The popularity of two-layer cardboard is due to many factors. First of all, corrugated cardboard in rolls has an affordable price, also takes up little space during transportation and storage, does not require additional packaging when transporting due to its durability. The roll width is 1250mm and 1050 mm. Our company offers both options for choice.</span></p>
+                                        <h3 class="materials__h3 is-animated"  data-animation="fadeInDown" data-delay="600ms">Single face board</h3>
+                                        <p class="materials__text is-animated"  data-animation="fadeInDown" data-delay="800ms">Is stored in rolls, is a universal packing material. Allows you to ensure the safety of different product groups during transportation.<span class="materials__text_hide"> The popularity of two-layer cardboard is due to many factors. First of all, corrugated cardboard in rolls has an affordable price, also takes up little space during transportation and storage, does not require additional packaging when transporting due to its durability. The roll width is 1250mm and 1050 mm. Our company offers both options for choice.</span></p>
                                     </div>     
                                     
                                     <div class="materials__picture">
-                                        <img class="materials__image" src="./img/05/mater-1.svg" draggable="false" alt="" srcset="">
+                                        <img class="materials__image is-animated"  data-animation="fadeInDown" data-delay="1000ms" src="./img/05/mater-1.svg" draggable="false" alt="" srcset="">
                                     </div>
                                 </div>
                             </div>
@@ -516,13 +516,13 @@
 
                     <div class="materials-btn">
                     <ul class="nav col-md-10 offset-md-1 tab-pills" role="tablist">
-                        <li class="tab-item tab-item_first">
+                        <li class="tab-item tab-item_first is-animated"  data-animation="fadeInDown" data-delay="1200ms">
                         <a class="tab-link active" data-toggle="pill" href="#mater-1">Single face board</a>
                         </li>
-                        <li class="tab-item tab-item_second">
+                        <li class="tab-item tab-item_second is-animated"  data-animation="fadeInDown" data-delay="1400ms">
                         <a class="tab-link" data-toggle="pill" href="#mater-2">Single wall board</a>
                         </li>
-                        <li class="tab-item tab-item_third">
+                        <li class="tab-item tab-item_third is-animated"  data-animation="fadeInDown" data-delay="1600ms">
                         <a class="tab-link" data-toggle="pill" href="#mater-3">Double wall board</a>
                         </li>
                     </ul>
@@ -530,99 +530,99 @@
                 </div>
 
             </div>
-        </div>
+        </section>
 
      
 
-        <div class="section" id="section-6">
+        <section class="section section6" id="section-6">
             <div class="materials-2_background container d-flex align-items-center">
             <div class="materials-2 col-lg-5 col-md-12">
-                <h2 class="materials-2-title">Flexoprinting</h2>
-                <p class="materials-2-text">
+                <h2 class="materials-2-title is-animated"  data-animation="fadeInDown" data-delay="800ms">Flexoprinting</h2>
+                <p class="materials-2-text is-animated"  data-animation="fadeInDown" data-delay="600ms">
                 Zakhid Kraft Resource uses flexo equipment from the Italian company Bielloni Castello with a wide range of capabilities, which allows the printing of six-color water-based paints on a roll up to 1050 mm wide.<br><br>
                 Flexographic printing is one of the most popular and popular ways of drawing images, logos and inscriptions on paper. With the help of Flexo printing service, Kraft paper acquires a more presentable and attractive appearance.</p>
             </div>
             </div>
-        </div>
+        </section>
 
-        <div class="section" id="section-7">
+        <section class="section section7" id="section-7">
             <div class="container">
             <div class="about row">
                 <div class="about-first col-md-4 offset-md-2">
-                    <h2 class="about-h2">Our company</h2>
-                    <p class="about-p">
+                    <h2 class="about-h2 is-animated"  data-animation="fadeInDown" data-delay="600ms">Our company</h2>
+                    <p class="about-p is-animated"  data-animation="fadeInDown" data-delay="1000ms">
                         Zakhid Kraft Resurs LLC is a dynamic enterprise in the paper market  packaging of Ukraine since 2014. The production facilities of the company are located in Zhidachiv, Lviv region. <span class="about__mobile_hide">We have extensive experience in the production of paper and cardboard packaging for food and non-food products. Our goal is to provide consumers with quality environmental paper packaging.</span></p>
-                    <div class="d-flex">
+                    <div class="d-flex is-animated"  data-animation="fadeInDown" data-delay="1400ms">
                         <img class="about-eye" src="./img/07/about-eye.svg" draggable="false" alt="">
                         <h5 class="about-h5 about-h5_yellow">CONCLUSION<br>of the state sanitary<br> and epidemiological</h5>
                     </div>
                 </div>
 
                 <div class="about-second col-md-3 col-sm-12">
-                    <div class="d-flex">
+                    <div class="d-flex is-animated"  data-animation="fadeInDown" data-delay="1800ms">
                         <img class="about-cup" src="./img/07/about-cup.svg" draggable="false" alt="" srcset="">
                         <h5 class="about-h5">Fast<br>creating</h5>
                     </div>
-                    <div class="d-flex">
+                    <div class="d-flex is-animated"  data-animation="fadeInDown" data-delay="2200ms">
                         <img class="about-cup" src="./img/07/about-cup.svg" draggable="false" alt="" srcset="">
                         <h5 class="about-h5">Excellent<br>quality</h5>
                     </div>
-                    <div class="d-flex">
+                    <div class="d-flex is-animated"  data-animation="fadeInDown" data-delay="2600ms">
                         <img class="about-cup" src="./img/07/about-cup.svg" draggable="false" alt="" srcset="">
                         <h5 class="about-h5">Reasonable<br>price</h5>
                     </div>
                 </div>
             </div>
             </div>
-        </div>
+        </section>
         
-        <div class="section" id="section-8">
+        <section class="section section8" id="section-8">
             <div class="container d-flex">
             <div class="partners">
-                <div class="partners-header col-md-5 offset-md-2">
+                <div class="partners-header is-animated col-md-5 offset-md-2"  data-animation="fadeInDown" data-delay="600ms">
                     <h2 class="partners-h2">Our partners</h2>
                 </div>
 
                 <div class="partners-block col-md-8 offset-md-2 col-sm-12">
                     <div class="partners-item">
-                        <img class="partners__img" src="./img/08/partner-1.svg" draggable="false" alt="">
+                        <img class="partners__img is-animated" src="./img/08/partner-1.svg"  data-animation="fadeInDown" data-delay="800ms" draggable="false" alt="">
                     </div>
                     <div class="partners-item">
-                        <img class="partners__img" src="./img/08/partner-2.svg" draggable="false" alt="">
+                        <img class="partners__img is-animated" src="./img/08/partner-2.svg" data-animation="fadeInDown" data-delay="1000ms" draggable="false" alt="">
                     </div>
                     <div class="partners-item">
-                        <img class="partners__img" src="./img/08/partner-3.svg" draggable="false" alt="">
+                        <img class="partners__img is-animated" src="./img/08/partner-3.svg" data-animation="fadeInDown" data-delay="1200ms" draggable="false" alt="">
                     </div>
                     <div class="partners-item">
-                        <img class="partners__img" src="./img/08/partner-4.svg" draggable="false" alt="">
+                        <img class="partners__img is-animated" src="./img/08/partner-4.svg"  data-animation="fadeInDown" data-delay="1800ms" draggable="false" alt="">
                     </div>
                     <div class="partners-item">
-                        <img class="partners__img" src="./img/08/partner-5.svg" draggable="false" alt="">
+                        <img class="partners__img is-animated" src="./img/08/partner-5.svg"  data-animation="fadeInDown" data-delay="1600ms" draggable="false" alt="">
                     </div>
                     <div class="partners-item">
-                        <img class="partners__img" src="./img/08/partner-6.svg" draggable="false" alt="">
+                        <img class="partners__img is-animated" src="./img/08/partner-6.svg"  data-animation="fadeInDown" data-delay="1400ms" draggable="false" alt="">
                     </div>
                 </div>
             </div>
             </div>
-        </div>
+        </section>
 
-        <div class="section" id="section-9">
+        <section class="section section9" id="section-9">
             <div class="container">
             <div class="contacts row">
                 <div class="contacts-first col-md-4 offset-md-2">
-                    <h2 class="contacts-h2">Contacts</h2>
+                    <h2 class="contacts-h2 is-animated"  data-animation="fadeInDown" data-delay="600ms">Contacts</h2>
                     
                 <div class="contacts-block">
-                    <div class="contacts-item">
+                    <div class="contacts-item is-animated"  data-animation="fadeInDown" data-delay="1000ms">
                         <img class="contacts-icon" src="./img/09/contacts-mail.svg" draggable="false" alt="" srcset="">
                         <h5 class="contacts-h5">zaxidcraft@gmail.com</h5>
                     </div>
-                    <div class="contacts-item">
+                    <div class="contacts-item is-animated"  data-animation="fadeInDown" data-delay="1400ms">
                         <img class="contacts-icon" src="./img/09/contacts-phone.svg" draggable="false" alt="" srcset="">
                         <h5 class="contacts-h5">+3800000000</h5>
                     </div>
-                    <div class="contacts-item">
+                    <div class="contacts-item is-animated"  data-animation="fadeInDown" data-delay="1800ms">
                         <img class="contacts-icon contacts-icon-location" src="./img/09/contacts-location.svg" draggable="false" alt="" srcset="">
                         <h5 class="contacts-h5">81700<br>vul. Zaliznychna 3, Zhydachiv,<br> Lviv reg., Ukraine</h5>
                     </div>
@@ -631,26 +631,27 @@
                 </div>
 
                 <div class="contacts-second col-md-3">
-                    <p class="contacts-p">Leave a message and we'll<br>get in touch with you</p>
-                    <div class="open-message open-message_white openFilePanel">
+                    <p class="contacts-p is-animated"  data-animation="fadeInDown" data-delay="2200ms">Leave a message and we'll<br>get in touch with you</p>
+                    <div class="open-message open-message_white openFilePanel is-animated" data-animation="fadeInDown" data-delay="2600ms">
                         <p class="open-title open-titleEn">MESSAGE</p>
                     </div>
                 </div>
 
-                <div class="contacts-block_bottom col-md-4 offset-md-2">
+                <div class="contacts-block_bottom col-md-4 offset-md-2 is-animated" data-animation="fadeInDown" data-delay="3000ms">
                     <p class="contacts-copyright">designed and developed by Sandia Studio</p>
                 </div>
             </div>
             </div>
-        </div>  
+        </section>  
     </div>
     </main>
 
 
-<script src="./js/script.js"></script>
-<script type="text/javascript" src="./js/fullpage.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.2/jquery.fullPage.min.js"></script>
+<script src="./js/script.js"></script>
 <script src="./js/jqscript.js"></script>
+<script src="./js/animateSliders.js"></script>
 <script>
     document.addEventListener('DOMContentLoaded', function() {
         startFunctions();
@@ -658,12 +659,6 @@
 </script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-<script>
-    var myFullpage = new fullpage('#fullpage', {
-        anchors: ['home', 'production', 'gofrotara', 'packages', 'materials', 'materials-2', 'about', 'partners', 'contacts'],
-        navigation: false
-    }); 
-</script>
 
 </body>
 </html>

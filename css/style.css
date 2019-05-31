@@ -70,7 +70,6 @@
          url('../fonts/RobotoMedium.svg#RobotoMedium') format('svg');
 }
 
-
 /* BASIC STYLES */
 
 .section {
@@ -328,33 +327,6 @@ DYNAMIC STYLES
     transition-duration: 2500ms;
 }
 
-.animateImages {
-    -webkit-animation-name: opacityAnim;
-    animation-name: opacityAnim;
-    -webkit-animation-delay: 1000ms;
-    animation-delay: 1000ms;
-    -webkit-animation-duration: 2500ms;
-    animation-duration: 2500ms;
-}
-
-@-webkit-keyframes opacityAnim {
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
-}
-
-@keyframes opacityAnim {
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
-}
-
 /* message__block */
 
 
@@ -558,6 +530,13 @@ animation: slide-out 1s forwards;
     background-repeat: no-repeat;
     width: 225px;
     cursor: pointer;
+}
+
+.open-message:hover {
+    -webkit-transform: translateX(10px);
+    transform: translateX(10px);
+    -webkit-transition-duration: 200ms;
+    transition-duration: 200ms;
 }
 
 .open-message_white {
@@ -1312,7 +1291,7 @@ animation: slide-out 1s forwards;
 }
 
 .contacts-block_bottom {
-    position: fixed;
+    position: absolute;
     bottom: 0;
     width: 100%;
 }
