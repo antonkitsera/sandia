@@ -30,7 +30,7 @@
 
         <div class="navbar-collapse">
             <ul class="navbar-nav ml-auto mt-lg-0">
-                <li class="nav-item d-flex">
+                <li class="nav-item d-flex nav-item_margin">
                     <a class="nav-link align-self-center" id="nav-link" href="tel:+3800000000">+3800000000</a>
                 </li>
                 <li class="nav-item d-flex">
@@ -513,8 +513,8 @@
                     <h2 class="about-h2 is-animated" data-animation="fadeInDown" data-delay="600ms">Наша компанія</h2>
                     <p class="about-p is-animated"  data-animation="fadeInDown" data-delay="1000ms">Динамічне підприємство на ринку паперової упаковки України з 2014 року. Виробничі потужності компанії знаходяться у м. Жидачів, Львівська область. <span class="about__mobile_hide">Маємо великий досвід з виробництва паперової та картонної упаковки для харчових та нехарчових продуктів.</span></p>
                     <div class="d-flex is-animated"  data-animation="fadeInDown" data-delay="1400ms">
-                        <img class="about-eye" src="./img/07/about-eye.svg" draggable="false" alt="">
-                        <h5 class="about-h5 about-h5_yellow">ВИСНОВОК<br>державної санітарно-<br>епідеміологічної експертизи</h5>
+                        <img class="about-eye" src="./img/07/about-eye.svg" draggable="false" onclick="showEyeText();" id="eye__img">
+                        <h5 class="about-h5 about-h5_yellow" id="eye__text">ВИСНОВОК<br>державної санітарно-<br>епідеміологічної експертизи</h5>
                     </div>
                 </div>
 
@@ -620,6 +620,5 @@
 </script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-
 </body>
 </html>

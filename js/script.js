@@ -587,45 +587,14 @@ let partnerImgFourth = document.getElementById("partner-4");
 let partnerImgFifth = document.getElementById("partner-5");
 let partnerImgSixth = document.getElementById("partner-6");
 
-let addAnimation = () => {
-  // // if (window.location.hash == pageIdList[0]) {
-  // //   homeClass.classList.add("animated", "fadeInLeft", "delay-1000ms");
-  // // } else if(window.location.hash == pageIdList[1]) {
-  // //   productionClass.classList.add("animated", "fadeInLeft", "delay-1000ms");
-
-  // // } else if(window.location.hash == pageIdList[2]) {
-  // //   gofrotaraClass.classList.add("animated", "fadeInLeft", "delay-1000ms");
-
-  // // } else if(window.location.hash == pageIdList[3]) {
-  // //   packagesClass.classList.add("animated", "fadeInLeft", "delay-1000ms");
-
-  // // } else if(window.location.hash == pageIdList[4]) {
-  // //   materialsClass.classList.add("animated", "fadeInLeft", "delay-1000ms");
-
-  // // } else if(window.location.hash == pageIdList[5]) {
-  // //   materials2Class.classList.add("animated", "fadeInLeft", "delay-1000ms");
-
-  // // } else if(window.location.hash == pageIdList[6]) {
-  // //   aboutClass.classList.add("animated", "fadeInLeft", "delay-1000ms");
-    
-  // // } else if(window.location.hash == pageIdList[7]) {
-
-  // //   // partnerTitle.classList.add("animated", "fadeInDown", "delay-700ms", "infinite");
-
-  // //   // partnerImgFirst.classList.add("animated", "fadeInDown", "delay-2000ms", "infinite");
-  // //   // partnerImgSecond.classList.add("animated", "fadeInDown", "delay-3000ms", "infinite");
-  // //   // partnerImgThird.classList.add("animated", "fadeInDown", "delay-4000ms", "infinite");
-  // //   // partnerImgFourth.classList.add("animated", "fadeInDown", "delay-5000ms", "infinite");
-  // //   // partnerImgFifth.classList.add("animated", "fadeInDown", "delay-6000ms", "infinite");
-  // //   // partnerImgSixth.classList.add("animated", "fadeInDown", "delay-7000ms", "infinite");
 
 
-  // // } else if(window.location.hash == pageIdList[8]) {
-  // //   contactsClass.classList.add("animated", "fadeInLeft", "delay-1000ms");
-  // // } else {
-  // // }
+let eyeText = document.getElementById("eye__text");
+
+let showEyeText = () => {
+    eyeText.style.opacity = 1;
 }
 
 let startFunctions = () => {
-    dynamicStyle(); scrollUpDown(); addLogo(); navSideShowActive(); addAnimation();
+    dynamicStyle(); scrollUpDown(); addLogo(); navSideShowActive();
 }

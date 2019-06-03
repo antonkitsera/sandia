@@ -1172,6 +1172,12 @@ animation: slide-out 1s forwards;
     padding-right: 30px;
 }
 
+#eye__text {
+    opacity: 0;
+    -webkit-transition: 2s;
+    transition: 2s;
+}
+
 .about-cup {
     padding-bottom: 26px;
     padding-right: 30px;
@@ -1368,6 +1374,10 @@ animation: slide-out 1s forwards;
 }
 
 @media (max-width: 768px) {
+
+    .nav-item_margin {
+        margin-right: 10px;
+    }
 
     .nav-side__link {
         padding-right: 10px;
