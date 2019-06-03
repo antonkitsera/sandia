@@ -1,6 +1,7 @@
 const pageIdList = ['#home', '#production', '#gofrotara', '#packages', '#materials', '#materials-2', '#about', '#partners', '#contacts'];
 
 let navLink = document.getElementById("nav-link");
+let navLinkSecond = document.getElementById("nav-link_second");
 
 let langLinkFirst = document.getElementById("lang-link-1");
 let langLinkSecond = document.getElementById("lang-link-2");
@@ -15,6 +16,7 @@ let langBackgroundSource = document.querySelector(".lang-link_active");
 let dynamicStyle = () => {
     if (window.location.hash == pageIdList[6]) {
         navLink.classList.add("nav-link_white");
+        navLinkSecond.classList.add("nav-link_white");
         langLinkFirst.classList.add("lang-link_whiteActive");
         langLinkSecond.classList.add("lang-link_white");
         langLinkThird.classList.add("lang-link_white");
@@ -27,11 +29,13 @@ let dynamicStyle = () => {
 
     } else if(window.location.hash == pageIdList[8]) {
         navLink.classList.remove("nav-link_white");
+        navLinkSecond.classList.remove("nav-link_white");
         langLinkFirst.classList.remove("lang-link_whiteActive");
         langLinkSecond.classList.remove("lang-link_white");
         langLinkThird.classList.remove("lang-link_white");
         
         navLink.classList.add("nav-link_black");
+        navLinkSecond.classList.add("nav-link_black");
         langLinkFirst.classList.add("lang-link_blackActive");
         langLinkSecond.classList.add("lang-link_black");
         langLinkThird.classList.add("lang-link_black");
@@ -47,11 +51,13 @@ let dynamicStyle = () => {
 
     } else {
         navLink.classList.remove("nav-link_white");
+        navLinkSecond.classList.remove("nav-link_white");
         langLinkFirst.classList.remove("lang-link_whiteActive");
         langLinkSecond.classList.remove("lang-link_white");
         langLinkThird.classList.remove("lang-link_white");
 
         navLink.classList.remove("nav-link_black");
+        navLinkSecond.classList.remove("nav-link_black");
         langLinkFirst.classList.remove("lang-link_blackActive");
         langLinkSecond.classList.remove("lang-link_black");
         langLinkThird.classList.remove("lang-link_black");

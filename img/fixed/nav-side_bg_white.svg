@@ -1,3 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="110" height="12" viewBox="0 0 110 12">
-  <path id="Path_254" data-name="Path 254" d="M7.148-52V58h12V-52Z" transform="translate(58 -7.148) rotate(90)" fill="#fff"/>
+<svg width="124" height="12" xmlns="http://www.w3.org/2000/svg">
+
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="14" width="126" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <path stroke="null" transform="rotate(90 62.28005599975586,6.191204071044926) " fill="#fff" d="m56.280055,-56.648092l0,125.678591l12,0l0,-125.678591l-12,0z" id="Path_254"/>
+ </g>
 </svg>

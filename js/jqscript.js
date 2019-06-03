@@ -7,11 +7,13 @@ $('.openFilePanel').click(function(event) {
       $('.message').removeClass('message_closed').addClass('message_opened').css('display', 'flex');
       
         navLink.classList.remove("nav-link_white");
+        navLinkSecond.classList.remove("nav-link_white");
         langLinkFirst.classList.remove("lang-link_whiteActive");
         langLinkSecond.classList.remove("lang-link_white");
         langLinkThird.classList.remove("lang-link_white");
         
         navLink.classList.add("nav-link_black");
+        navLinkSecond.classList.add("nav-link_black");
         langLinkFirst.classList.add("lang-link_blackActive");
         langLinkSecond.classList.add("lang-link_black");
         langLinkThird.classList.add("lang-link_black");
@@ -40,6 +42,7 @@ $('.openFilePanel').click(function(event) {
         langLinkThird.classList.remove("lang-link_white");
   
         navLink.classList.remove("nav-link_black");
+        navLinkSecond.classList.remove("nav-link_black");
         langLinkFirst.classList.remove("lang-link_blackActive");
         langLinkSecond.classList.remove("lang-link_black");
         langLinkThird.classList.remove("lang-link_black");
@@ -51,6 +54,7 @@ $('.openFilePanel').click(function(event) {
         langBackgroundSource.style.backgroundImage = "url('./img/fixed/lang-bg.svg')";
 
         navLink.classList.remove("nav-link_white");
+        navLinkSecond.classList.remove("nav-link_white");
         headerLogo.src = "./img/none.png";
       } else {
         scrollDown.src="./img/none.png";

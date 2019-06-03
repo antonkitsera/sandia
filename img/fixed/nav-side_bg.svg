@@ -1,5 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="110" height="12.426" viewBox="0 0 110 12.426">
-  <g id="Group_617" data-name="Group 617" transform="translate(-1255.255 -261.667)">
-    <path id="Path_254" data-name="Path 254" d="M7.148-52V58H19.575V-52Z" transform="translate(1313.255 254.518) rotate(90)" fill="#d7e603"/>
+<svg width="124" height="12.426" xmlns="http://www.w3.org/2000/svg">
+ <g>
+  <title>background</title>
+  <rect x="-1" y="-1" width="126" height="14.426" id="canvas_background" fill="none"/>
+ </g>
+
+ <g>
+  <title>Layer 1</title>
+  <g stroke="null" id="Group_617">
+   <path stroke="null" id="Path_254" d="m124.336342,-0.0005l-124.672684,0l0,12.427l124.672684,0l0,-12.427z" fill="#d7e603"/>
   </g>
+ </g>
 </svg>

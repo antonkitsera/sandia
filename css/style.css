@@ -246,6 +246,7 @@ SIDE NAVIGATION
 .nav-side__link {
     color: #434343;
     padding-right: 20px;
+    padding-left: 5px;
 }
 
 .nav-side__link:hover {
@@ -269,7 +270,6 @@ SIDE NAVIGATION
     background-image: url("../img/fixed/nav-side_bg.svg");
     background-repeat: no-repeat;
     background-position: center right;
-    width: 110px;
 }
 
 .nav-side_active {
@@ -534,9 +534,7 @@ animation: slide-out 1s forwards;
 }
 
 .open-message:hover {
-    -webkit-transform: translateX(10px);
     transform: translateX(10px);
-    -webkit-transition-duration: 200ms;
     transition-duration: 200ms;
 }
 
@@ -681,7 +679,7 @@ animation: slide-out 1s forwards;
     width: 101%;
     height: 101%;
     text-align: center;
-    padding-top: 9px;
+    padding-top: 8px;
     padding-bottom: 9px;
     color: #434343;
 }
@@ -705,7 +703,6 @@ animation: slide-out 1s forwards;
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
-    -webkit-transform: translateY(115px);
     transform: translateY(115px);
 }
 
@@ -745,7 +742,6 @@ animation: slide-out 1s forwards;
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
-    -webkit-transform: translateY(115px);
     transform: translateY(115px);
 }
 
@@ -870,7 +866,6 @@ animation: slide-out 1s forwards;
 
 .packages__header_desktop {
     display: inline;
-    -webkit-transform: translateY(115px);
     transform: translateY(115px);
 }
 
@@ -1369,6 +1364,10 @@ animation: slide-out 1s forwards;
 
 @media (max-width: 768px) {
 
+    .nav-side__link {
+        padding-right: 10px;
+    }
+
     .scroll__block {
         margin-bottom: 8px;
     }
@@ -1464,7 +1463,6 @@ animation: slide-out 1s forwards;
     .production__image {
         height: 80%;
         z-index: 9;
-        -webkit-transform: scale(1) !important;
         transform: scale(1) !important;
     }
 
@@ -1609,7 +1607,6 @@ animation: slide-out 1s forwards;
     }
 
     .packages__desc {
-        -webkit-transform: scale(0.9);
         transform: scale(0.9);
     }
 
@@ -1703,7 +1700,6 @@ animation: slide-out 1s forwards;
     }
 
     .carousel-indicators-transform {
-        -webkit-transform: translateY(-6px);
         transform: translateY(-6px);
     }
 
@@ -1752,7 +1748,6 @@ animation: slide-out 1s forwards;
 
 @media (max-width: 1366px) and (max-height: 768px) {
     .production__image {
-        -webkit-transform: scale(0.8);
         transform: scale(0.8);
     }
 }
