@@ -7,6 +7,7 @@
     <title>Захід Крафт Ресурс</title>
 
     <!-- STYLES -->
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
@@ -30,10 +31,17 @@
 
         <div class="navbar-collapse">
             <ul class="navbar-nav ml-auto mt-lg-0">
-                <li class="nav-item d-flex nav-item_margin">
-                    <a class="nav-link align-self-center" id="nav-link" href="tel:+3800000000">+3800000000</a>
+                <li class="nav-item d-flex nav-item_margin nav-item_height">
+                    <a class="nav-link nav-link-button align-self-center" id="nav-link" onclick="toggleNumbers();">Зателефонувати</a>
+                    <ul class="navbar__numbers" id="navbar-numbers">
+                        <li class="numbers__item"><a href="tel:+380988558537" class="numbers__link">Марія +380988558537</a></li>
+                        <li class="numbers__item"><a href="tel:+380676729053" class="numbers__link">Євген +380676729053</a></li>
+                        <li class="numbers__item"><a href="tel:+380676768933" class="numbers__link">Юра +380676768933</a></li>
+                        <li class="numbers__item"><a href="tel:+380976650772" class="numbers__link">Олександр +380976650772</a></li>
+                        <li class="numbers__item"><a href="tel:+380676768047" class="numbers__link">Євген +380676768047</a></li>
+                    </ul>
                 </li>
-                <li class="nav-item d-flex">
+                <li class="nav-item d-none">
                     <a class="nav-link align-self-center" id="nav-link_second" href="tel:+3800000000">+3800000000</a>
                 </li>
                 <li class="nav-item nav-item_width">

@@ -13,6 +13,29 @@ let scrollDown = document.getElementById("scroll-down");
 
 let langBackgroundSource = document.querySelector(".lang-link_active");
 
+
+
+
+let callBtn = document.getElementById("nav-link");
+let numbersList = document.getElementById("navbar-numbers");
+
+let toggleNumbers = () => {
+  numbersList.classList.toggle("showList");
+}
+
+window.onclick = function(event) {
+  if (!event.target.matches('.nav-link-button')) {
+    let dropdowns = document.getElementsByClassName("navbar__numbers");
+    for (let i = 0; i < dropdowns.length; i++) {
+      let openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('showList')) {
+        openDropdown.classList.remove('showList');
+      }
+    }
+  }
+}
+
+
 let dynamicStyle = () => {
     if (window.location.hash == pageIdList[6]) {
         navLink.classList.add("nav-link_white");
