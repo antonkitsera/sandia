@@ -65,5 +65,4 @@ $('.openFilePanel').click(function(event) {
     }
     event.preventDefault();
   });
-  
-  
+

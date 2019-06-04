@@ -72,6 +72,10 @@
 
 /* BASIC STYLES */
 
+.indicators-en {
+    bottom: 1%;
+}
+
 #carouselExampleIndicators {
     -ms-touch-action: manipulation;
     touch-action: manipulation;
@@ -1325,6 +1329,7 @@ animation: slide-out 1s forwards;
 
 .contacts-h5 {
     font-family: "HeliosCondBold";
+    color: #000000;
 }
 
 .contacts-h5_yellow {
