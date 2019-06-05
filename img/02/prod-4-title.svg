@@ -1,7 +1,15 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="466.644" height="22" viewBox="0 0 466.644 22">
-  <g id="Group_590" data-name="Group 590" transform="translate(-535.245 -977)">
-    <rect id="Rectangle_123" data-name="Rectangle 123" width="372.5" height="22" transform="translate(581 977)" fill="#d7e603"/>
-    <path id="Path_250" data-name="Path 250" d="M995.95,366.667v21.279h-3.283l6.63,11.365,6.5-11.365h-3.22V366.667Z" transform="translate(934.555 -11.667) rotate(90)"/>
-    <path id="Path_1575" data-name="Path 1575" d="M3.283,32.644V11.365H0L6.63,0l6.5,11.365H9.913V32.644Z" transform="translate(1001.889 981) rotate(90)"/>
+<svg width="377" height="22" xmlns="http://www.w3.org/2000/svg">
+
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="24" width="379" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <g id="Group_590">
+   <rect x="1.755496" y="0" fill="#d7e603" height="22" width="372.5" id="Rectangle_123"/>
+   <path transform="rotate(90 355.31051635742193,-988.6669921875) " d="m1351.260489,-622l0,21.279l-3.283,0l6.63,11.365l6.5,-11.365l-3.22,0l0,-21.279l-6.627,0z" id="Path_250"/>
+   <path transform="rotate(90 422.6445007324219,4.000000000000029) " d="m425.927473,36.644l0,-21.279l-3.283,0l6.63,-11.365l6.5,11.365l-3.217,0l0,21.279l-6.63,0z" id="Path_1575"/>
   </g>
+ </g>
 </svg>

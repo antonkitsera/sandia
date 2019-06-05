@@ -32,7 +32,7 @@
         <div class="navbar-collapse">
             <ul class="navbar-nav ml-auto mt-lg-0">
                 <li class="nav-item d-flex nav-item_margin nav-item_height">
-                    <a class="nav-link nav-link-button align-self-center" id="nav-link" onclick="toggleNumbers();">Зателефонувати</a>
+                    <a class="nav-link nav-link-button align-self-center" id="nav-link" onclick="toggleNumbers();">ЗАТЕЛЕФОНУВАТИ</a>
                     <ul class="navbar__numbers" id="navbar-numbers">
                         <li class="numbers__item"><a href="tel:+380988558537" class="numbers__link">Марія +380988558537</a></li>
                         <li class="numbers__item"><a href="tel:+380676729053" class="numbers__link">Євген +380676729053</a></li>
@@ -226,22 +226,22 @@
                 
                 <div class="production-btn d-flex justify-content-center">
                     <ul class="nav tab-pills col-md-8 d-flex justify-content-center" role="tablist">
-                        <li class="tab-item is-animated" data-animation="fadeInDown" data-delay="1000ms">
+                        <li class="tab-item is-animated" data-animation="fadeInDown" data-delay="1000ms" id="prod-btn-1">
                         <a class="tab-link active" data-toggle="pill" href="#prod-1">Гофрокартон</a>
                         </li>
-                        <li class="tab-item is-animated" data-animation="fadeInDown" data-delay="1200ms">
+                        <li class="tab-item is-animated" data-animation="fadeInDown" data-delay="1200ms" id="prod-btn-2">
                         <a class="tab-link" data-toggle="pill" href="#prod-2">Гофроящики</a>
                         </li>
-                        <li class="tab-item is-animated" data-animation="fadeInDown" data-delay="1400ms">
+                        <li class="tab-item is-animated" data-animation="fadeInDown" data-delay="1400ms" id="prod-btn-3">
                         <a class="tab-link" data-toggle="pill" href="#prod-3">Мішки / пакети</a>
                         </li>
-                        <li class="tab-item is-animated" data-animation="fadeInDown" data-delay="2000ms">
+                        <li class="tab-item is-animated" data-animation="fadeInDown" data-delay="2000ms" id="prod-btn-4">
                         <a class="tab-link" data-toggle="pill" href="#prod-4">Флексографічний друк</a>
                         </li>
-                        <li class="tab-item is-animated" data-animation="fadeInDown" data-delay="1800ms">
+                        <li class="tab-item is-animated" data-animation="fadeInDown" data-delay="1800ms" id="prod-btn-5">
                             <a class="tab-link" data-toggle="pill" href="#prod-5">Картонні гільзи / кутники</a>
                         </li>
-                        <li class="tab-item is-animated" data-animation="fadeInDown" data-delay="1600ms">
+                        <li class="tab-item is-animated" data-animation="fadeInDown" data-delay="1600ms" id="prod-btn-6">
                             <a class="tab-link" data-toggle="pill" href="#prod-6">Стрейч плівки / скотч</a>
                         </li>
                     </ul>
@@ -259,16 +259,16 @@
 
                 <div class="d-flex">
                     <ul class="nav col-md-3 offset-md-1 tab-pills d-flex align-content-center" role="tablist">
-                        <li class="tab-item tab-item_big is-animated" data-animation="fadeInDown" data-delay="800ms">
+                        <li class="tab-item tab-item_big is-animated" data-animation="fadeInDown" data-delay="800ms" id="gofr-btn-1">
                         <a class="tab-link tab-link_big active" data-toggle="pill" href="#gofr-1">Чотирьох клапанна</a>
                         </li>
-                        <li class="tab-item tab-item_big is-animated" data-animation="fadeInDown" data-delay="1000ms">
+                        <li class="tab-item tab-item_big is-animated" data-animation="fadeInDown" data-delay="1000ms" id="gofr-btn-2">
                         <a class="tab-link tab-link_big" data-toggle="pill" href="#gofr-2">Складна висічка</a>
                         </li>
-                        <li class="tab-item tab-item_big is-animated" data-animation="fadeInDown" data-delay="1200ms">
+                        <li class="tab-item tab-item_big is-animated" data-animation="fadeInDown" data-delay="1200ms" id="gofr-btn-3">
                         <a class="tab-link tab-link_big" data-toggle="pill" href="#gofr-3">Великогабаритна тара</a>
                         </li>
-                        <li class="tab-item tab-item_big is-animated" data-animation="fadeInDown" data-delay="1400ms">
+                        <li class="tab-item tab-item_big is-animated" data-animation="fadeInDown" data-delay="1400ms" id="gofr-btn-4">
                         <a class="tab-link tab-link_big" data-toggle="pill" href="#gofr-4">Комплектуючі</a>
                         </li>
                     </ul>
@@ -291,12 +291,12 @@
                             <div id="gofr-1" class="carousel-item gofrotara__item tab-pane active">
                                 <div class="gofrotara__block">
                                     <div class="gofrotara__picture">
-                                        <img class="gofrotara__image is-animated" data-animation="fadeInDown" data-delay="1600ms" src="./img/03/gofr-1.svg" draggable="false" alt="" srcset="">
+                                        <img class="gofrotara__image is-animated" data-animation="fadeInDown" data-delay="1600ms" src="./img/03/gofr-1.svg" draggable="false" alt="" srcset="" id="gofr-img-1">
                                     </div>
                                     
                                     <div class="gofrotara__desc">
-                                        <h3 class="gofrotara__h3 is-animated" data-animation="fadeInDown" data-delay="1800ms">Чотириклапанний гофроящик</h3>
-                                        <p class="gofrotara__text is-animated" data-animation="fadeInDown" data-delay="2000ms">За каталогом  FEFCO 0201 Найпоширеніший тип упаковки для транспортування продукції.<span class="gofrotara__text_hide"><br><br>Забезпечують хороший захист продукції під час складання, відвантаження та зберігання.</span></p>
+                                        <h3 class="gofrotara__h3 is-animated" data-animation="fadeInDown" data-delay="1800ms" id="gofr-title-1">Чотириклапанний гофроящик</h3>
+                                        <p class="gofrotara__text is-animated" data-animation="fadeInDown" data-delay="2000ms" id="gofr-text-1">За каталогом  FEFCO 0201 Найпоширеніший тип упаковки для транспортування продукції.<span class="gofrotara__text_hide"><br><br>Забезпечують хороший захист продукції під час складання, відвантаження та зберігання.</span></p>
                                     </div>                  
                                 </div>
                             </div>
@@ -304,11 +304,11 @@
                             <div id="gofr-2" class="carousel-item gofrotara__item tab-pane">
                                 <div class="gofrotara__block">
                                     <div class="gofrotara__picture">
-                                        <img class="gofrotara__image is-animated" data-animation="zoomIn" data-delay="600ms" src="./img/03/gofr-2.svg" draggable="false" alt="" srcset="">
+                                        <img class="gofrotara__image is-animated" data-animation="zoomIn" data-delay="600ms" src="./img/03/gofr-2.svg" draggable="false" alt="" srcset="" id="gofr-img-2">
                                     </div>
                                     <div class="gofrotara__desc">
-                                        <h3 class="gofrotara__h3 is-animated  gofrotara__h3_second"  data-animation="zoomIn" data-delay="800ms">Вироби складної висічки</h3>
-                                        <p class="gofrotara__text is-animated"  data-animation="zoomIn" data-delay="1000ms">Лотки з відкритим чи напіввідкритим верхом, коробки, які мають відокремлену кришку, шоу-бокси, обгорткові ящики.<span class="gofrotara__text_hide"><br><br>Можливі будь-які типорозміри та конфігурації згідно з каталогом FEFCO або кресленням замовника.</span></p>
+                                        <h3 class="gofrotara__h3 is-animated  gofrotara__h3_second"  data-animation="zoomIn" data-delay="800ms" id="gofr-title-2">Вироби складної висічки</h3>
+                                        <p class="gofrotara__text is-animated"  data-animation="zoomIn" data-delay="1000ms" id="gofr-text-2">Лотки з відкритим чи напіввідкритим верхом, коробки, які мають відокремлену кришку, шоу-бокси, обгорткові ящики.<span class="gofrotara__text_hide"><br><br>Можливі будь-які типорозміри та конфігурації згідно з каталогом FEFCO або кресленням замовника.</span></p>
                                     </div>                  
                                 </div>
                             </div>
@@ -316,11 +316,11 @@
                             <div id="gofr-3" class="carousel-item gofrotara__item tab-pane">
                                 <div class="gofrotara__block">
                                     <div class="gofrotara__picture">
-                                        <img class="gofrotara__image is-animated " src="./img/03/gofr-3.svg" data-animation="zoomIn" data-delay="600ms" draggable="false" alt="" srcset="">
+                                        <img class="gofrotara__image is-animated " src="./img/03/gofr-3.svg" data-animation="zoomIn" data-delay="600ms" draggable="false" alt="" srcset="" id="gofr-img-3">
                                     </div>
                                     <div class="gofrotara__desc">
-                                        <h3 class="gofrotara__h3 is-animated gofrotara__h3_third"  data-animation="zoomIn" data-delay="800ms">Великогабаритна гофротара</h3>
-                                        <p class="gofrotara__text is-animated"  data-animation="zoomIn" data-delay="1000ms">Великі гофроящики<span class="gofrotara__text_hide"> та октабіни</span> дозволяють ефективно захистити продукцію від пошкоджень<span class="gofrotara__text_hide"> під час транспортування.<br><br>Такий тип тари виготовляється із п’ятишарового гофрокартону та за необхідності додатково зміцнюється з боків.
+                                        <h3 class="gofrotara__h3 is-animated gofrotara__h3_third"  data-animation="zoomIn" data-delay="800ms" id="gofr-title-3">Великогабаритна гофротара</h3>
+                                        <p class="gofrotara__text is-animated"  data-animation="zoomIn" data-delay="1000ms" id="gofr-text-3">Великі гофроящики<span class="gofrotara__text_hide"> та октабіни</span> дозволяють ефективно захистити продукцію від пошкоджень<span class="gofrotara__text_hide"> під час транспортування.<br><br>Такий тип тари виготовляється із п’ятишарового гофрокартону та за необхідності додатково зміцнюється з боків.
                                         </span></p>
                                     </div>                  
                                 </div>
@@ -329,11 +329,11 @@
                             <div id="gofr-4" class="carousel-item gofrotara__item tab-pane">
                                 <div class="gofrotara__block">
                                     <div class="gofrotara__picture">
-                                        <img class="gofrotara__image is-animated " src="./img/03/gofr-4.svg" data-animation="zoomIn" data-delay="600ms" draggable="false" alt="" srcset="">
+                                        <img class="gofrotara__image is-animated " src="./img/03/gofr-4.svg" data-animation="zoomIn" data-delay="600ms" draggable="false" alt="" srcset="" id="gofr-img-4">
                                     </div>
                                     <div class="gofrotara__desc">
-                                        <h3 class="gofrotara__h3 is-animated  gofrotara__h3_fourth"  data-animation="zoomIn" data-delay="800ms">Комплектуючі</h3>
-                                        <p class="gofrotara__text is-animated"  data-animation="zoomIn" data-delay="1000ms">Для надійного зберігання та транспортування продукції в ящиках використовують додаткові засоби пакування.<span class="gofrotara__text_hide"><br><br>Прокладки, вкладиші та решітки допомагають надати додаткову міцність коробкам, а також, відокремити один від одного товар всередині.</span></p>
+                                        <h3 class="gofrotara__h3 is-animated  gofrotara__h3_fourth"  data-animation="zoomIn" data-delay="800ms" id="gofr-title-4">Комплектуючі</h3>
+                                        <p class="gofrotara__text is-animated"  data-animation="zoomIn" data-delay="1000ms" id="gofr-text-4">Для надійного зберігання та транспортування продукції в ящиках використовують додаткові засоби пакування.<span class="gofrotara__text_hide"><br><br>Прокладки, вкладиші та решітки допомагають надати додаткову міцність коробкам, а також, відокремити один від одного товар всередині.</span></p>
                                     </div>                  
                                 </div>
                             </div>
@@ -356,13 +356,13 @@
 
                 <div class="d-flex">
                     <ul class="nav col-md-3 offset-md-1 tab-pills d-flex align-content-center" role="tablist">
-                        <li class="tab-item tab-item_medium is-animated"   data-animation="fadeInDown" data-delay="800ms">
+                        <li class="tab-item tab-item_medium is-animated"   data-animation="fadeInDown" data-delay="800ms" id="pack-btn-1">
                         <a class="tab-link tab-link_big tab-link_left active" data-toggle="pill" href="#pack-1">Мішок клапанний</a>
                         </li>
-                        <li class="tab-item tab-item_medium is-animated"   data-animation="fadeInDown" data-delay="1000ms">
+                        <li class="tab-item tab-item_medium is-animated"   data-animation="fadeInDown" data-delay="1000ms" id="pack-btn-2">
                         <a class="tab-link tab-link_big tab-link_left" data-toggle="pill" href="#pack-2">Мішок відкритий</a>
                         </li>
-                        <li class="tab-item tab-item_medium tab-item_higher is-animated" data-animation="fadeInDown" data-delay="1200ms">
+                        <li class="tab-item tab-item_medium tab-item_higher is-animated" data-animation="fadeInDown" data-delay="1200ms" id="pack-btn-3">
                         <a class="tab-link tab-link_big tab-link_left tab-link_top" data-toggle="pill" href="#pack-3">Паперові пакети<br>під вугілля</a>
                         </li>
                     </ul>
@@ -383,12 +383,12 @@
                             <div id="pack-1" class="carousel-item is-animated packages__item tab-pane active"   data-animation="fadeInDown" data-delay="600ms">
                                 <div class="packages__block">
                                     <div class="packages__picture">
-                                        <img class="packages__image is-animated" src="./img/04/pack-1.svg"   data-animation="fadeInDown" data-delay="1800ms" draggable="false">
+                                        <img class="packages__image is-animated" src="./img/04/pack-1.svg"   data-animation="fadeInDown" data-delay="1800ms" draggable="false" id="pack-img-1">
                                     </div>
                                     
                                     <div class="packages__desc">
-                                        <h3 class="packages__h3 is-animated"   data-animation="fadeInDown" data-delay="2000ms">Мішки паперові клапанні</h3>
-                                        <p class="packages__text is-animated"   data-animation="fadeInDown" data-delay="2200ms">Це мішки склеєні згори і знизу, що мають один отвір з клапаном для засипки продукції. І є чудовим варіантом для зберігання будь-яких сипучих матеріалів використовуваних в харчовій промисловості, будівництві або сільському господарстві.</p>
+                                        <h3 class="packages__h3 is-animated"   data-animation="fadeInDown" data-delay="2000ms" id="pack-title-1">Мішки паперові клапанні</h3>
+                                        <p class="packages__text is-animated"   data-animation="fadeInDown" data-delay="2200ms" id="pack-text-1">Це мішки склеєні згори і знизу, що мають один отвір з клапаном для засипки продукції. І є чудовим варіантом для зберігання будь-яких сипучих матеріалів використовуваних в харчовій промисловості, будівництві або сільському господарстві.</p>
                                     </div>                  
                                 </div>
                             </div>
@@ -396,11 +396,11 @@
                             <div id="pack-2" class="carousel-item  packages__item tab-pane">
                                 <div class="packages__block">
                                     <div class="packages__picture">
-                                        <img class="packages__image is-animated"  data-animation="zoomIn" data-delay="600ms" src="./img/04/pack-2.svg" draggable="false" alt="" srcset="">
+                                        <img class="packages__image is-animated"  data-animation="zoomIn" data-delay="600ms" src="./img/04/pack-2.svg" draggable="false" alt="" srcset="" id="pack-img-2">
                                     </div>
                                     <div class="packages__desc packages__desc_big">
-                                        <h3 class="packages__h3 is-animated packages__h3_second"  data-animation="zoomIn" data-delay="800ms">Відкриті паперові мішки</h3>
-                                        <p class="packages__text is-animated"  data-animation="zoomIn" data-delay="1000ms">Мішки з відкритою горловиною для засипання або укладання продукції. Виготовлені з крафт-паперу.<br><br>Застосовуються для зберігання насіння, хімічної сировини, органічних добрив, деревного вугілля, комбікормів, сухого молока, казеїну, заморожених ягід, сухарів, макаронних виробів та ін..</p>
+                                        <h3 class="packages__h3 is-animated packages__h3_second"  data-animation="zoomIn" data-delay="800ms" id="pack-title-2">Відкриті паперові мішки</h3>
+                                        <p class="packages__text is-animated"  data-animation="zoomIn" data-delay="1000ms" id="pack-text-2">Мішки з відкритою горловиною для засипання або укладання продукції. Виготовлені з крафт-паперу.<br><br>Застосовуються для зберігання насіння, хімічної сировини, органічних добрив, деревного вугілля, комбікормів, сухого молока, казеїну, заморожених ягід, сухарів, макаронних виробів та ін..</p>
                                     </div>                  
                                 </div>
                             </div>
@@ -408,11 +408,11 @@
                             <div id="pack-3" class="carousel-item packages__item tab-pane">
                                 <div class="packages__block">
                                     <div class="packages__picture">
-                                        <img class="packages__image is-animated" data-animation="zoomIn" data-delay="600ms" src="./img/04/pack-3.svg" draggable="false" alt="" srcset="">
+                                        <img class="packages__image is-animated" data-animation="zoomIn" data-delay="600ms" src="./img/04/pack-3.svg" draggable="false" alt="" srcset="" id="pack-img-3">
                                     </div>
                                     <div class="packages__desc">
-                                        <h3 class="packages__h3 is-animated packages__h3_third"  data-animation="zoomIn" data-delay="800ms">Паперові пакети під деревне вугілля</h3>
-                                        <p class="packages__text is-animated"  data-animation="zoomIn" data-delay="1000ms">Наша компанія виготовляє пакети з крафт-паперу з нанесенням повноколірного друку.<br>Дана упаковка практична і екологічна, дозволяє зберігати властивості вугілля та його якості.</p>
+                                        <h3 class="packages__h3 is-animated packages__h3_third"  data-animation="zoomIn" data-delay="800ms" id="pack-title-3">Паперові пакети під деревне вугілля</h3>
+                                        <p class="packages__text is-animated"  data-animation="zoomIn" data-delay="1000ms" id="pack-text-3">Наша компанія виготовляє пакети з крафт-паперу з нанесенням повноколірного друку.<br>Дана упаковка практична і екологічна, дозволяє зберігати властивості вугілля та його якості.</p>
                                     </div>                  
                                 </div>
                             </div>
@@ -445,12 +445,12 @@
     
                                     
                                     <div class="materials__desc">
-                                        <h3 class="materials__h3 is-animated" data-animation="fadeInDown" data-delay="600ms">Гофрокартон двохшаровий</h3>
-                                        <p class="materials__text is-animated" data-animation="fadeInDown" data-delay="800ms">Зберігається в рулонах, є універсальним пакувальним матеріалом. Має доступну ціну, також займає мало місця при перевезенні і зберіганні, не вимагає додаткової упаковки при транспортуванні завдяки міцності.</p>
+                                        <h3 class="materials__h3 is-animated" data-animation="fadeInDown" data-delay="600ms" id="materials-title-1">Гофрокартон двохшаровий</h3>
+                                        <p class="materials__text is-animated" data-animation="fadeInDown" data-delay="800ms" id="materials-text-1">Зберігається в рулонах, є універсальним пакувальним матеріалом. Має доступну ціну, також займає мало місця при перевезенні і зберіганні, не вимагає додаткової упаковки при транспортуванні завдяки міцності.</p>
                                     </div>     
                                     
                                     <div class="materials__picture">
-                                        <img class="materials__image is-animated" data-animation="fadeInDown" data-delay="1000ms" src="./img/05/mater-1.svg" draggable="false" alt="" srcset="">
+                                        <img class="materials__image is-animated" data-animation="fadeInDown" data-delay="1000ms" src="./img/05/mater-1.svg" draggable="false" alt="" srcset="" id="materials-img-1">
                                     </div>
                                 </div>
                             </div>
@@ -458,13 +458,13 @@
                             <div id="mater-2" class="carousel-item materials__item tab-pane">
                                 <div class="materials__block">
                                     <div class="materials__desc">
-                                        <h3 class="materials__h3 is-animated" data-animation="zoomIn" data-delay="600ms">Гофрокартон трьохшаровий</h3>
-                                        <p class="materials__text is-animated" data-animation="zoomIn" data-delay="800ms">Гофрокартон тришаровий призначений для виготовлення гофроящиків та для пакування різних видів продукції. <span class="materials__text_hide">Використовується як гофропрокладка.<br><br>В залежності від міцності та жорсткості класифікується на марки:</span></p>
-                                        <p class="materials__text_yellow is-animated" data-animation="zoomIn" data-delay="900ms">КГ-4, КГ-2, Т-20, Т-21, Т-22, Т-23, Т-24, Т-25, Т-26</p>
+                                        <h3 class="materials__h3 is-animated" data-animation="zoomIn" data-delay="600ms" id="materials-title-2">Гофрокартон трьохшаровий</h3>
+                                        <p class="materials__text is-animated" data-animation="zoomIn" data-delay="800ms" id="materials-text-2">Гофрокартон тришаровий призначений для виготовлення гофроящиків та для пакування різних видів продукції. <span class="materials__text_hide">Використовується як гофропрокладка.<br><br>В залежності від міцності та жорсткості класифікується на марки:</span></p>
+                                        <p class="materials__text_yellow is-animated" data-animation="zoomIn" data-delay="900ms" id="materials-desc-2">КГ-4, КГ-2, Т-20, Т-21, Т-22, Т-23, Т-24, Т-25, Т-26</p>
                                     </div>   
                                     <div class="materials__picture">
-                                        <img class="materials__image is-animated" data-animation="zoomIn" data-delay="1000ms" src="./img/05/mater-2.svg" draggable="false" alt="" srcset="">
-                                        <p class="materials__text materials__text_long is-animated" data-animation="zoomIn" data-delay="1100ms">Гофрокартон складається з двох плоских та одного гофрованого шару з гофрами В, С або Е. Гофрокартон тришаровий марки Е ще називається мікрогофрокартон.</p>
+                                        <img class="materials__image is-animated" data-animation="zoomIn" data-delay="1000ms" src="./img/05/mater-2.svg" draggable="false" alt="" srcset="" id="materials-img-2">
+                                        <p class="materials__text materials__text_long is-animated" data-animation="zoomIn" data-delay="1100ms" id="materials-subText-2">Гофрокартон складається з двох плоских та одного гофрованого шару з гофрами В, С або Е. Гофрокартон тришаровий марки Е ще називається мікрогофрокартон.</p>
                                     </div>               
                                 </div>
                             </div>
@@ -473,12 +473,12 @@
                                 <div class="materials__block">
     
                                     <div class="materials__desc">
-                                        <h3 class="materials__h3 is-animated" data-animation="zoomIn" data-delay="600ms">Гофрокартон пятишаровий</h3>
-                                        <p class="materials__text is-animated" data-animation="zoomIn" data-delay="800ms">Призначений для виготовлення великогабаритної, високоміцної та жорсткої тари, контейнерів.<span class="materials__text_hide"><br><br>Складається з трьох плоских та двох гофрованих шарів з поєднанням гофрів Е/В, Е/С і В/С. Марки гофрокартону:</span></p>
-                                        <p class="materials__text_yellow is-animated" data-animation="zoomIn" data-delay="900ms">П-30, П-31, П-32, П-33, П-34</p>
+                                        <h3 class="materials__h3 is-animated" data-animation="zoomIn" data-delay="600ms" id="materials-title-3">Гофрокартон пятишаровий</h3>
+                                        <p class="materials__text is-animated" data-animation="zoomIn" data-delay="800ms" id="materials-text-3">Призначений для виготовлення великогабаритної, високоміцної та жорсткої тари, контейнерів.<span class="materials__text_hide"><br><br>Складається з трьох плоских та двох гофрованих шарів з поєднанням гофрів Е/В, Е/С і В/С. Марки гофрокартону:</span></p>
+                                        <p class="materials__text_yellow is-animated" data-animation="zoomIn" data-delay="900ms" id="materials-desc-3">П-30, П-31, П-32, П-33, П-34</p>
                                     </div>        
                                     <div class="materials__picture">
-                                        <img class="materials__image is-animated" data-animation="zoomIn" data-delay="1000ms" src="./img/05/mater-3.svg" draggable="false" alt="" srcset="">
+                                        <img class="materials__image is-animated" data-animation="zoomIn" data-delay="1000ms" src="./img/05/mater-3.svg" draggable="false" alt="" srcset="" id="materials-img-3">
                                     </div>            
                                 </div>
                             </div>
@@ -487,13 +487,13 @@
 
                     <div class="materials-btn">
                     <ul class="nav col-md-10 offset-md-1 tab-pills" role="tablist">
-                        <li class="tab-item tab-item_first is-animated" data-animation="fadeInDown" data-delay="1200ms">
+                        <li class="tab-item tab-item_first is-animated" data-animation="fadeInDown" data-delay="1200ms" id="materials-btn-1">
                         <a class="tab-link active" data-toggle="pill" href="#mater-1">Гофрокартон двохшаровий</a>
                         </li>
-                        <li class="tab-item tab-item_second is-animated" data-animation="fadeInDown" data-delay="1400ms">
+                        <li class="tab-item tab-item_second is-animated" data-animation="fadeInDown" data-delay="1400ms" id="materials-btn-2">
                         <a class="tab-link" data-toggle="pill" href="#mater-2">Гофрокартон трьохшаровий</a>
                         </li>
-                        <li class="tab-item tab-item_third is-animated" data-animation="fadeInDown" data-delay="1600ms">
+                        <li class="tab-item tab-item_third is-animated" data-animation="fadeInDown" data-delay="1600ms" id="materials-btn-3">
                         <a class="tab-link" data-toggle="pill" href="#mater-3">Гофрокартон пятишаровий</a>
                         </li>
                     </ul>
@@ -609,7 +609,7 @@
                     </div>
                 </div>
 
-                <div class="contacts-block_bottom col-md-4 offset-md-2 is-animated" data-animation="fadeInDown" data-delay="3000ms">
+                <div class="contacts-block_bottom col-md-4 offset-md-1 is-animated" data-animation="fadeInDown" data-delay="3000ms">
                     <p class="contacts-copyright">designed and developed by Sandia Studio</p>
                 </div>
             </div>
