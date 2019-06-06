@@ -1064,12 +1064,24 @@ animation: slide-out 1s forwards;
     height: 100%;
 }
 
-#mater-1 {
+.mater-1 {
     padding-bottom: 94px;
 }
 
-#mater-3 {
+.mater-3 {
     padding-bottom: 24px;        
+}
+
+.mater-en-1 {
+    padding-bottom: 22px;
+}
+
+.mater-en-2 {
+    padding-bottom: 17px;
+}
+
+.mater-en-3 {
+    padding-bottom: 46px;
 }
 
 .materials__title {
@@ -1688,6 +1700,11 @@ animation: slide-out 1s forwards;
         flex-direction: column;
     }
 
+    .packages__content {
+        -webkit-transform: translateY(-40px);
+        transform: translateY(-40px);
+    }
+
     .packages__item {
         width: 100%;
     }
@@ -1702,8 +1719,7 @@ animation: slide-out 1s forwards;
 
     .packages__title {
         font-size: 45px !important;
-        -webkit-transform: translateY(55px);
-        transform: translateY(55px);
+        margin-top: 45px;
     }
 
     .packages__desc {
@@ -1800,7 +1816,7 @@ animation: slide-out 1s forwards;
         height: auto;
     }
 
-    #mater-1, #mater-3 {
+    .mater-1, .mater-3, .mater-en-1, .mater-en-2, .mater-en-3 {
         padding-bottom: 0;
     }    
 
