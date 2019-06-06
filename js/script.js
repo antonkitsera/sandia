@@ -612,11 +612,11 @@ let partnerImgSixth = document.getElementById("partner-6");
 
 
 
-let eyeText = document.getElementById("eye__text");
+let eyeBlock = document.querySelector(".eye__block");
 
-let showEyeText = () => {
-    eyeText.style.opacity = 1;
-}
+eyeBlock.addEventListener("click", function() {
+window.open("./img/conclusion.pdf", "_blank");
+}, false);
 
 let startFunctions = () => {
     dynamicStyle(); scrollUpDown(); addLogo(); navSideShowActive();

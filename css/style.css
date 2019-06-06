@@ -1251,10 +1251,8 @@ animation: slide-out 1s forwards;
     padding-right: 30px;
 }
 
-#eye__text {
-    opacity: 0;
-    -webkit-transition: 2s;
-    transition: 2s;
+.eye__block {
+    cursor: pointer;
 }
 
 .about-cup {
@@ -1476,6 +1474,10 @@ animation: slide-out 1s forwards;
 
     .container_mobile {
         width: 82%;
+    }
+
+    .container_mobile_long {
+        width: 90%;
     }
 
     #header-logo {
@@ -1825,6 +1827,10 @@ animation: slide-out 1s forwards;
         transform: translateY(-6px);
     }
 
+    .materials-2-title {
+        font-size: 35px !important;
+    }
+
     .materials__text_yellow {
         display: none;
     }
@@ -1834,7 +1840,8 @@ animation: slide-out 1s forwards;
     }
 
     .materials__h3 {
-        font-size: 35px !important;
+        font-size: 30px !important;
+        padding-top: 15px;
     }
 
     .materials__picture {
