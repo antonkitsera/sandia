@@ -1660,6 +1660,7 @@ animation: slide-out 1s forwards;
     .about-h2 {
         font-size: 45px !important;
         margin-bottom: 0;
+        margin-top: 15px;
     }
 
     .about-p {
@@ -1879,7 +1880,7 @@ animation: slide-out 1s forwards;
         -webkit-box-direction: normal;
         -ms-flex-direction: column;
         flex-direction: column;
-        height: auto;
+        min-height: 363px;
     }
 
     .mater-1, .mater-3, .mater-en-1, .mater-en-2, .mater-en-3 {
@@ -1905,6 +1906,9 @@ animation: slide-out 1s forwards;
 
     .materials__h3 {
         font-size: 30px !important;
+    }
+
+    #materials-title-1 {
         padding-top: 15px;
     }
 
@@ -1926,11 +1930,22 @@ animation: slide-out 1s forwards;
         display: none;
     }
 
-    .about-cup {
-        padding-right: 10px;
+    .about-eye {
+        padding-right: 0;
     }
 
-    .about-second > div {
+    .about-eye, .about-h5_yellow {
+        -webkit-transform: scale(0.85);
+        transform: scale(0.85);
+    }
+
+    .about-cup {
+        padding-right: 10px;
+        -webkit-transform: scale(0.85);
+        transform: scale(0.85);
+    }
+    
+    .about-h5 {
         -webkit-transform: scale(0.85);
         transform: scale(0.85);
     }
