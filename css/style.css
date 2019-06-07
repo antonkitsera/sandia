@@ -1926,6 +1926,10 @@ animation: slide-out 1s forwards;
         display: none;
     }
 
+    .about-cup {
+        padding-right: 10px;
+    }
+
     .contacts-p {
         display: none;
     }
