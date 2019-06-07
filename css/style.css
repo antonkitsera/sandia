@@ -1883,6 +1883,10 @@ animation: slide-out 1s forwards;
         min-height: 363px;
     }
 
+    .materials__item {
+        margin-top: 20%;
+    }
+
     .mater-1, .mater-3, .mater-en-1, .mater-en-2, .mater-en-3 {
         padding-bottom: 0;
     }    
