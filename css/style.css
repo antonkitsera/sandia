@@ -1482,6 +1482,7 @@ animation: slide-out 1s forwards;
     .message__title {
         width: 88%;
         padding-left: 30px;
+        text-align: center;
     }
 
     .scroll__block {
@@ -1910,6 +1911,7 @@ animation: slide-out 1s forwards;
 
     .materials__h3 {
         font-size: 30px !important;
+        text-align: center;
     }
 
     #materials-title-1 {
@@ -1964,6 +1966,11 @@ animation: slide-out 1s forwards;
 
     .contacts-block_bottom {
         margin-bottom: 8px;
+    }
+
+    .packages__title, .gofrotara__title, .production__title, .about-h2, .partners-h2, .contacts-h2 {
+        font-size: 40px !important;
+        text-align: center;
     }
 }
 
