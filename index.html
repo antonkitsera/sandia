@@ -104,7 +104,7 @@
         <div class="message__block col-md-8 offset-md-2">
             <h2 class="message__title">Зв'язатись з нами</h2>
 
-            <form class="message__form" id="contact-form" name="contact-form" action="mail.php" method="POST">
+            <form class="message__form" id="contact-form" name="contact-form" action="/message" method="POST">
                 <div class="message__item message__item_long">
                     <textarea type="text" id="message" name="message" class="message__text input__item placeholder_color" placeholder="введіть ваше повідомлення" required></textarea>
                 </div>
@@ -112,7 +112,7 @@
                 <div class="message__item message__item_flex">
                     <input type="text" id="name" name="name" class="input__item placeholder_color" placeholder="ім'я / назва компанії" required>
 
-                    <input type="email" id="email" name="email" class="input__item placeholder_color" placeholder="пошта" required>
+                    <input type="email" id="email" name="email" class="input__item placeholder_color" pattern=".+@globex.com" size="30" placeholder="пошта" required>
 
                     <input type="tel" id="subject" name="subject" class="input__item placeholder_color" placeholder="телефон" required>
                 </div>
@@ -333,7 +333,7 @@
                                     </div>
                                     <div class="gofrotara__desc">
                                         <h3 class="gofrotara__h3 is-animated  gofrotara__h3_fourth"  data-animation="zoomIn" data-delay="800ms" id="gofr-title-4">Комплектуючі</h3>
-                                        <p class="gofrotara__text is-animated"  data-animation="zoomIn" data-delay="1000ms" id="gofr-text-4">Для надійного зберігання та транспортування продукції в ящиках використовують додаткові засоби пакування.<span class="gofrotara__text_hide"><br><br>Прокладки, вкладиші та решітки допомагають надати додаткову міцність коробкам, а також, відокремити один від одного товар всередині.</span></p>
+                                        <p class="gofrotara__text gofrotara__p_fourth is-animated"  data-animation="zoomIn" data-delay="1000ms" id="gofr-text-4">Для надійного зберігання та транспортування продукції в ящиках використовують додаткові засоби пакування.<span class="gofrotara__text_hide"><br><br>Прокладки, вкладиші та решітки допомагають надати додаткову міцність коробкам, а також, відокремити один від одного товар всередині.</span></p>
                                     </div>                  
                                 </div>
                             </div>

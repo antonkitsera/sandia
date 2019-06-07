@@ -104,7 +104,7 @@
         <div class="message__block col-md-8 offset-md-2">
             <h2 class="message__title">Contact with us</h2>
 
-            <form class="message__form" id="contact-form" name="contact-form" action="mail.php" method="POST">
+            <form class="message__form" id="contact-form" name="contact-form" action="/message" method="POST">
                 <div class="message__item message__item_long">
                     <textarea type="text" id="message" name="message" class="message__text input__item placeholder_color" placeholder="type your message" required></textarea>
                 </div>
@@ -112,7 +112,7 @@
                 <div class="message__item message__item_flex">
                     <input type="text" id="name" name="name" class="input__item placeholder_color" placeholder="name / company name" required>
 
-                    <input type="email" id="email" name="email" class="input__item placeholder_color" placeholder="email" required>
+                    <input type="email" id="email" name="email" class="input__item placeholder_color" pattern=".+@globex.com" size="30" placeholder="email" required>
 
                     <input type="tel" id="subject" name="subject" class="input__item placeholder_color" placeholder="phone" required>
                 </div>
@@ -332,7 +332,7 @@
                                     <div class="gofrotara__picture">
                                         <img class="gofrotara__image is-animated"  data-animation="zoomIn" data-delay="600ms" src="./img/03/gofr-4.svg" draggable="false" alt="" srcset="" id="gofr-img-4">
                                     </div>
-                                    <div class="gofrotara__desc">
+                                    <div class="gofrotara__desc gofrotaraEn__desc">
                                         <h3 class="gofrotara__h3 is-animated gofrotara__h3_fourth gofrotaraEn_fourth"  data-animation="zoomIn" data-delay="800ms" id="gofr-title-4">Accessories</h3>
                                         <p class="gofrotara__text is-animated"  data-animation="zoomIn" data-delay="1000ms" id="gofr-text-4">
                                             For the safe storage and transportation of products in boxes use additional packaging.<span class="gofrotara__text_hide"><br><br>Pads, liners and grids help to provide extra strength to the boxes, as well as to separate the goods from within.</span></p>
