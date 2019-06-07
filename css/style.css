@@ -1489,6 +1489,16 @@ animation: slide-out 1s forwards;
         margin-bottom: 8px;
     }
 
+    .scroll__item {
+        -webkit-transform: translateX(-10px) translateY(10px);
+        transform: translateX(-10px) translateY(10px);
+    }
+
+    .scroll__item_right {
+        -webkit-transform: translateX(10px) translateY(10px);
+        transform: translateX(10px) translateY(10px);
+    }
+
     .container_mobile {
         width: 82%;
     }

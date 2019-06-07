@@ -27,6 +27,9 @@ $('.openFilePanel').click(function(event) {
         navSideList.style.display = "none";
 
         headerLogo.src = "./img/none.png";
+        if(window.location.hash == "#contacts") {
+          scrollDown.src="./img/none.png";
+        }
     }
     event.preventDefault();
   });
