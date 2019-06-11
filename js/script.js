@@ -13,11 +13,10 @@ let scrollDown = document.getElementById("scroll-down");
 
 let langBackgroundSource = document.querySelector(".lang-link_active");
 
-
-
-
 let callBtn = document.getElementById("nav-link");
 let numbersList = document.getElementById("navbar-numbers");
+
+let numbersLink = document.querySelectorAll(".numbers__link");
 
 let toggleNumbers = () => {
   numbersList.classList.toggle("showList");
@@ -50,6 +49,11 @@ let dynamicStyle = () => {
 
         langBackgroundSource.style.backgroundImage = "url('./img/fixed/lang-bg.svg')";
 
+        for(let i = 0; i < numbersLink.length; i++) {
+            numbersLink[i].style.color = "#FFFFFF";
+            numbersLink[i].style.background = "none";
+        }
+
     } else if(window.location.hash == pageIdList[8]) {
         navLink.classList.remove("nav-link_white");
         navLinkSecond.classList.remove("nav-link_white");
@@ -72,6 +76,11 @@ let dynamicStyle = () => {
 
         langBackgroundSource.style.backgroundImage = "url('./img/fixed/lang-bg_black.svg')";
 
+        for(let i = 0; i < numbersLink.length; i++) {
+          numbersLink[i].style.color = "#000000";
+          numbersLink[i].style.background = "none";
+        }
+
     } else {
         navLink.classList.remove("nav-link_white");
         navLinkSecond.classList.remove("nav-link_white");
@@ -90,6 +99,11 @@ let dynamicStyle = () => {
         scrollDown.src="./img/fixed/scroll-down.svg";
 
         langBackgroundSource.style.backgroundImage = "url('./img/fixed/lang-bg.svg')";
+
+        for(let i = 0; i < numbersLink.length; i++) {
+          numbersLink[i].style.color = "#434343";
+          numbersLink[i].style.background = "#FFFFFF";
+        }
 
     }
 }

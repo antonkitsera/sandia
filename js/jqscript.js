@@ -29,6 +29,11 @@ $('.openFilePanel').click(function(event) {
         headerLogo.src = "./img/none.png";
         if(window.location.hash == "#contacts") {
           scrollDown.src="./img/none.png";
+        } else;
+
+        for(let i = 0; i < numbersLink.length; i++) {
+          numbersLink[i].style.color = "#000000";
+          numbersLink[i].style.background = "none";
         }
     }
     event.preventDefault();
@@ -65,6 +70,11 @@ $('.openFilePanel').click(function(event) {
       }
         
       navSideList.style.display = "block";
+
+      for(let i = 0; i < numbersLink.length; i++) {
+        numbersLink[i].style.color = "#434343";
+        numbersLink[i].style.background = "#FFFFFF";
+      }
     }
     event.preventDefault();
   });

@@ -584,6 +584,14 @@ animation: slide-out 1s forwards;
     height: 100%;
 }
 
+.home__picture {
+
+}
+
+.home__text {
+    padding-left: 0;
+}
+
 .open-message {
     background-image: url("../img/01/message-bg.svg");
     background-repeat: no-repeat;
@@ -855,6 +863,7 @@ animation: slide-out 1s forwards;
 
 .gofrotara__desc {
     max-width: 260px;
+    margin-right: 20px;
 }
 
 .gofrotara__h3 {
@@ -1153,6 +1162,7 @@ animation: slide-out 1s forwards;
     font-family: "DOCKERONE";
     font-size: 50px;
     color: #434343;
+    margin-bottom: 40px;
 }
 
 .materials__text {
@@ -1475,6 +1485,11 @@ animation: slide-out 1s forwards;
         transform: translateX(-10px);
     }
 
+    .lang-item:first-of-type {
+        -webkit-transform: translateX(-2px);
+        transform: translateX(-2px);
+    }
+
     .lang-item_span {
         -webkit-transform: translateY(-6px) translateX(-3px);
         transform: translateY(-6px) translateX(-3px);
@@ -1564,6 +1579,10 @@ animation: slide-out 1s forwards;
         text-align: center;
     }
 
+    .home__picture {
+        margin: 0 auto;
+    }
+
     .open-message {
         margin: 0 auto;
         text-align: left;
@@ -1591,8 +1610,6 @@ animation: slide-out 1s forwards;
         right: 0;
         margin: auto;
         height: 100%;
-        -webkit-transform: scale(0.85);
-        transform: scale(0.85);
     }
 
     .production__name {
@@ -1626,8 +1643,6 @@ animation: slide-out 1s forwards;
     .production__image {
         height: 80%;
         z-index: 9;
-        -webkit-transform: scale(1) !important;
-        transform: scale(1) !important;
     }
 
     .production__image_width {
@@ -1657,6 +1672,10 @@ animation: slide-out 1s forwards;
         -webkit-transform: translateY(55px);
         transform: translateY(55px);
         z-index: 10;
+    }
+
+    .carousel-indicators {
+        bottom: -1%;
     }
 
     .carousel-control-prev-icon {
@@ -1729,6 +1748,7 @@ animation: slide-out 1s forwards;
 
     .contacts-block {
         padding-top: 0;
+        padding-left: 40px;
     }
 
     .contacts-block_bottom {
@@ -1838,6 +1858,10 @@ animation: slide-out 1s forwards;
         display: none;
     }
 
+    .gofrotara__desc {
+        margin-right: 0;
+    }
+
     .gofrotara__text_hide {
         display: none;
     }
@@ -1919,15 +1943,14 @@ animation: slide-out 1s forwards;
 
     .mater-1, .mater-3, .mater-en-1, .mater-en-2, .mater-en-3 {
         padding-bottom: 0;
-    }    
-
-    .carousel-indicators-transform {
-        -webkit-transform: translateY(-6px);
-        transform: translateY(-6px);
     }
 
     .materials-2-title {
         font-size: 35px !important;
+    }
+
+    .materials_mobile {
+        display: none;
     }
 
     .materials__text_yellow {
@@ -1941,10 +1964,15 @@ animation: slide-out 1s forwards;
     .materials__h3 {
         font-size: 30px !important;
         text-align: center;
+        margin-bottom: 0;
     }
 
     #materials-title-1 {
         padding-top: 15px;
+    }
+
+    .materials-btn {
+        display: none;
     }
 
     .materials__picture {
@@ -1992,6 +2020,7 @@ animation: slide-out 1s forwards;
 
     .contacts-copyright {
         text-align: right;
+        margin-bottom: 2%;
     }
 
     .contacts-block_bottom {
