@@ -112,6 +112,14 @@
     height: 100%;
 }
 
+.letter_spacing {
+    letter-spacing: -0.02em;
+}
+
+.letter_spacing-big {
+    letter-spacing: -0.07em;
+}
+
 /* preload page animation */
 
 .preloader {
