@@ -1987,7 +1987,7 @@ animation: slide-out 1s forwards;
     }
 
     .materials__image {
-        width: 88%;
+        width: 85%;
     }
 
     .materials__text_long {
@@ -2049,6 +2049,10 @@ animation: slide-out 1s forwards;
 
     .input__item {
         font-size: 16px;
+    }
+
+    .materials__image {
+        width: 75%;
     }
 
     .materials-2-text {
