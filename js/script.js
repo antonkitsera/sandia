@@ -157,8 +157,24 @@ let scrollUpDown = () => {
 let headerLogo = document.getElementById("header-logo");
 
 let addLogo = () => {
-    if(window.location.hash != pageIdList[0]) {
+    if(window.location.hash == pageIdList[1]) {
         headerLogo.src = "./img/fixed/header-logo.svg";
+    } else if(window.location.hash == pageIdList[2]) {
+      headerLogo.src = "./img/fixed/header-logo.svg";
+    } else if(window.location.hash == pageIdList[2]) {
+      headerLogo.src = "./img/fixed/header-logo.svg";
+    } else if(window.location.hash == pageIdList[3]) {
+      headerLogo.src = "./img/fixed/header-logo.svg";
+    } else if(window.location.hash == pageIdList[4]) {
+      headerLogo.src = "./img/fixed/header-logo.svg";
+    } else if(window.location.hash == pageIdList[5]) {
+      headerLogo.src = "./img/fixed/header-logo.svg";
+    } else if(window.location.hash == pageIdList[6]) {
+      headerLogo.src = "./img/fixed/header-logo.svg";
+    } else if(window.location.hash == pageIdList[7]) {
+      headerLogo.src = "./img/fixed/header-logo.svg";
+    } else if(window.location.hash == pageIdList[8]) {
+      headerLogo.src = "./img/fixed/header-logo.svg";
     } else {
         headerLogo.src = "./img/none.png";
     }

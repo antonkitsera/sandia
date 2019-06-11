@@ -1579,6 +1579,10 @@ animation: slide-out 1s forwards;
         text-align: center;
     }
 
+    .home__block {
+        margin: 0 auto;
+    }
+
     .home__picture {
         margin: 0 auto;
     }
@@ -1748,7 +1752,7 @@ animation: slide-out 1s forwards;
 
     .contacts-block {
         padding-top: 0;
-        padding-left: 40px;
+        padding-left: 25px;
     }
 
     .contacts-block_bottom {
@@ -2030,6 +2034,35 @@ animation: slide-out 1s forwards;
     .packages__title, .gofrotara__title, .production__title, .about-h2, .partners-h2, .contacts-h2 {
         font-size: 40px !important;
         text-align: center;
+    }
+}
+
+@media (max-width: 320px) {
+    .message__title {
+        font-size: 32px !important;
+    }
+
+    .home__picture {
+        width: 70%;
+        height: 20%;
+    }
+
+    .input__item {
+        font-size: 16px;
+    }
+
+    .materials-2-text {
+        font-size: 13px;
+    }
+
+    .about-cup, .about-h5 {
+        -webkit-transform: scale(0.75);
+        transform: scale(0.75);
+        padding-left: 0;
+    }
+
+    .contacts-h5 {
+        font-size: 16px !important;
     }
 }
 
