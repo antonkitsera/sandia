@@ -2076,6 +2076,11 @@ animation: slide-out 1s forwards;
     .contacts-h5 {
         font-size: 16px !important;
     }
+
+    .packages__title, .gofrotara__title, .production__title, .materials-2-title, .about-h2, .partners-h2, .contacts-h2 {
+        font-size: 33px !important;
+        text-align: center;
+    }
 }
 
 @media (max-width: 1366px) and (max-height: 768px) {
