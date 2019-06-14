@@ -66,7 +66,6 @@ $('.openFilePanel').click(function(event) {
         headerLogo.src = "./img/none.png";
       } else {
         scrollDown.src="./img/none.png";
-        headerLogo.src = "./img/fixed/header-logo.svg";
       }
         
       navSideList.style.display = "block";
@@ -415,4 +414,12 @@ $('.openFilePanel').click(function(event) {
     materialsDescThird.addEventListener('animationend', function() {
       materialsDescThird.classList.remove('animated', 'zoomIn');
     })
+  });
+
+  jQuery(document).ready(function(){
+    jQuery('.notf__close').click(function(e){
+      e.preventDefault();
+      var parent = $(this).parent('.notf');
+      parent.fadeOut("slow", function() { $(this).remove(); } );
+    });
   });

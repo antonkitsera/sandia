@@ -553,6 +553,15 @@ animation: slide-out 1s forwards;
     opacity: 1; /* Firefox */
 }
 
+[type=submit]:not(:disabled), button:not(:disabled) {
+    background-color: Transparent !important;
+    background-repeat:no-repeat !important;
+    border: none !important;
+    cursor:pointer !important;
+    overflow: hidden !important;
+    outline:none !important;
+}
+
 .send-message {
     background-image: url("../img/09/message-bg_white.svg");
     background-repeat: no-repeat;
@@ -564,8 +573,8 @@ animation: slide-out 1s forwards;
     font-size: 23px;
     font-family: "HeliosCondBold";
     color: #000000;
-    -webkit-transform: translateY(-6px) translateX(15px);
-    transform: translateY(-6px) translateX(15px);
+    -webkit-transform: translateY(-6px) translateX(-12px);
+    transform: translateY(-6px) translateX(-12px);
 }
 
 .send-titleEn {
@@ -581,7 +590,71 @@ animation: slide-out 1s forwards;
     cursor: pointer;
 }
 
+.notf__container {
+    display: none;
+    vertical-align: middle;
+    position: fixed;
+    z-index: 10000;
+    font-family: "RobotoBold";
+    font-size: 20px;
+    top: 15%;
+}
 
+.notf__cell{
+  display:inline-block;
+}
+
+.add-margin{
+  margin-top:20px;
+}
+
+.notf__svg{
+  fill:#fff;
+}
+
+.notf {
+  text-align:left;
+    padding: 12px 0;
+    background-color:#fff;
+    border-radius:4px;
+    max-width: 500px;
+    top: 0px;
+    position:relative;
+    box-shadow: 1px 7px 14px -5px rgba(0,0,0,0.2);
+}
+
+.notf__type {
+  color: #3e3e3e;
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+.notf__message {
+    font-size: 14px;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #000000;
+}
+
+.notf__content{
+  padding-left: 20px;
+  padding-right: 50px;
+}
+
+.notf__close {
+    position: absolute;
+    right: 22px;
+    top: 50%;
+    width: 14px;
+    cursor:pointer;
+    fill:#000000;
+    transform: translateY(-50%);
+}
+
+.notf--green:before{
+  background-color:#D7E603;
+}
 
 /* #section-1 */
 
@@ -1577,6 +1650,10 @@ animation: slide-out 1s forwards;
         -webkit-animation: slide-in 500ms forwards;
         animation: slide-in 500ms forwards;
     }
+
+    .notf__container {
+        top: 7%;
+    }
     
     .message_closed {
         -webkit-animation: slide-out 500ms forwards;
@@ -1598,6 +1675,10 @@ animation: slide-out 1s forwards;
     .open-message {
         margin: 0 auto;
         text-align: left;
+    }
+
+    .send-title {
+        text-align: center;
     }
 
     .home__title {

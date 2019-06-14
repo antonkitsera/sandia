@@ -101,27 +101,43 @@
     </div>
 
     <div class="message message_closed" id="message">
+
+            <div class="notf__container">
+                <div class="notf__cell">
+                <div class="notf notf--green">
+                    <div class="notf__content">
+                    <p class="notf__message">SENT!</p>
+                    </div>
+                    <div class="notf__close">
+                    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.642 15.642" xmlns:xlink="http://www.w3.org/1999/xlink" enable-background="new 0 0 15.642 15.642">
+                    <path fill-rule="evenodd" d="M8.882,7.821l6.541-6.541c0.293-0.293,0.293-0.768,0-1.061  c-0.293-0.293-0.768-0.293-1.061,0L7.821,6.76L1.28,0.22c-0.293-0.293-0.768-0.293-1.061,0c-0.293,0.293-0.293,0.768,0,1.061  l6.541,6.541L0.22,14.362c-0.293,0.293-0.293,0.768,0,1.061c0.147,0.146,0.338,0.22,0.53,0.22s0.384-0.073,0.53-0.22l6.541-6.541  l6.541,6.541c0.147,0.146,0.338,0.22,0.53,0.22c0.192,0,0.384-0.073,0.53-0.22c0.293-0.293,0.293-0.768,0-1.061L8.882,7.821z"></path>
+                </svg>
+                    </div>
+                </div>
+                </div>
+            </div>
+
         <div class="message__block col-md-8 offset-md-2">
             <h2 class="message__title">Contact with us</h2>
 
-            <form class="message__form" id="contact-form" name="contact-form" action="/message" method="POST">
+            <form class="message__form" id="contact-form" name="contact-form" action="send.php" method="post">
                 <div class="message__item message__item_long">
                     <textarea type="text" id="message" name="message" class="message__text input__item placeholder_color" placeholder="type your message" required></textarea>
                 </div>
 
                 <div class="message__item message__item_flex">
-                    <input type="text" id="name" name="name" class="input__item placeholder_color" placeholder="name / company name" required>
+                    <input type="text" id="name" name="name" class="input__item placeholder_color" placeholder="name / company name" required autocomplete="off">
 
-                    <input type="email" id="email" name="email" class="input__item placeholder_color" pattern=".+@globex.com" size="30" placeholder="email" required>
+                    <input type="email" id="email" name="email" class="input__item placeholder_color" size="30" placeholder="email" required autocomplete="off">
 
-                    <input type="tel" id="subject" name="subject" class="input__item placeholder_color" placeholder="phone" required>
+                    <input type="tel" id="subject" name="subject" class="input__item placeholder_color" placeholder="phone" required autocomplete="off">
                 </div>
             </form>
 
             <div class="send-block text-center text-md-left">
-                <div class="send-message">
+                <button class="send-message" type="submit" form="contact-form">
                     <p class="send-title send-titleEn">SEND</p>
-                </div>
+                </button>
             </div>
         </div>
 
@@ -648,6 +664,22 @@
       allowPageScroll:"vertical"
       
       });
-      </script>
+</script>
+<script>
+        $('form').on('submit', function (event) {
+            event.preventDefault();
+            $.ajax({
+                'url':  this.action,
+                'method': 'post',
+                'data': $(this).serialize(),
+                'dataType': 'json'
+            }).done(function () {console.log(arguments)
+                let notfBlock = document.querySelector(".notf__container");
+                notfBlock.style.display = "table-cell";
+                $('#contact-form')[0].reset();
+            })
+                .fail(function () {console.log(arguments)});
+        });
+    </script>
 </body>
 </html>
